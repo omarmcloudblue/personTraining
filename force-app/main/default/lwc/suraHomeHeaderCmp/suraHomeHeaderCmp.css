@@ -1,0 +1,32 @@
+.homeHeader {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  padding: 0.4rem;
+  background-color: #ccdaff57;
+}
+
+.homeHeader_text {
+  color: #081a3f;
+  font-size: 12px;
+}
+
+.homeHeader_text a {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #2d6df6;
+}
+
+.homeHeader_img {
+  flex: 0 0 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .homeHeader {
+    gap: 0.5rem;
+    flex-direction: row-reverse;
+  }
+}

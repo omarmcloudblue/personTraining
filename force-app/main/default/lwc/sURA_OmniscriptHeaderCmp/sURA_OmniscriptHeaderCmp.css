@@ -1,0 +1,45 @@
+.motos-omniscript-header__container {
+  background-color: #08369a;
+  text-align: center;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  position: relative;
+}
+
+.motos-omniscript-header_button__container {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.motos-omniscript-header__logo {
+  width: 100%;
+  padding: 15px 0;
+}
+
+.motos-omniscript-header___icon {
+  margin-left: 0.5rem;
+  color: white;
+}
+
+.motos-omniscript-header__title {
+  margin-left: 1rem !important;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .motos-omniscript-header__container {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .motos-omniscript-header__title {
+    display: none;
+  }
+}
+
+.motos-omniscript-header__logo {
+  text-align: center;
+  margin-top: 0 !important;
+}
