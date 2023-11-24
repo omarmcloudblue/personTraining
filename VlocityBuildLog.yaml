@@ -1,0 +1,958 @@
+manifest:
+  - AttributeCategory/Planes
+  - AttributeCategory/Tomador
+  - AttributeCategory/autoVehicle
+  - AttributeCategory/claimItem
+  - AttributeCategory/claimParty
+  - AttributeCategory/Item
+  - AttributeCategory/Party
+  - AttributeCategory/Asistencias
+  - AttributeCategory/Beneficiario
+  - AttributeCategory/Coberturas
+  - AttributeCategory/autoWell
+  - ContentVersion/aa533cd0-2985-b644-c03a-7b69bfc627e3
+  - ContentVersion/e17e8ef9-ac5f-9147-0744-d3d56e19c3bb
+  - ContentVersion/28f6d57c-165b-5105-454b-fe5dd3bf73d0
+  - ContentVersion/7b8583c9-2ebf-8e0d-3641-51017208d1c4
+  - CpqConfigurationSetup/CacheEnabled
+  - CpqConfigurationSetup/RetainProductAttribJSON
+  - CustomFieldMap/FSC_Policy_ProdCode__Quote_ProdCode
+  - CustomFieldMap/FSC_Policy_Premium_Quote_Premium
+  - CustomFieldMap/FSC_Policy_Producer_Quote_PrimaryProd
+  - CustomFieldMap/FSC_Policy_Term_Quote_Term
+  - CustomFieldMap/FSC_Quote_EffDate_Policy_EffDate
+  - CustomFieldMap/FSC_Quote_EndDate_Policy_ExpDate
+  - CustomFieldMap/FSC_Quote_Name_Policy_Name
+  - CustomFieldMap/ContractQuote_Field2
+  - CustomFieldMap/Asset_EffDate_Quote_EffDate
+  - CustomFieldMap/ContractQuote_Field1
+  - CustomFieldMap/CensusMemberContact_Field6
+  - CustomFieldMap/ContractQuote_Field3
+  - CustomFieldMap/InsuredCensusMember_CensusMember_Gndr
+  - CustomFieldMap/ContractQuote_Field4
+  - CustomFieldMap/InsuredCensusMember_CensusMember_Bdate
+  - CustomFieldMap/InsuredCensusMember_CensusMember_FName
+  - CustomFieldMap/InsuredCensusMember_CensusMember_IsPri
+  - CustomFieldMap/InsuredCensusMember_CensusMember_LName
+  - CustomFieldMap/Asset_ExpDate_Quote_EndDate
+  - CustomFieldMap/InsuredCensusMember_CensusMember_MemId
+  - CustomFieldMap/InsuredCensusMember_CensusMember_NoDep
+  - CustomFieldMap/InsuredCensusMember_CensusMember_Name
+  - CustomFieldMap/InsuredGroupCensus_Census_EndDate
+  - CustomFieldMap/InsuredCensusMember_CensusMember_PriId
+  - CustomFieldMap/InsuredCensusMember_CensusMember_Type
+  - CustomFieldMap/InsuredGroupCensus_Census_EffDate
+  - CustomFieldMap/InsuredGroupCensus_Census_Name
+  - CustomFieldMap/Asset_Name_Quote_Name
+  - CustomFieldMap/InsuredGroupCensus_Census_Source
+  - CustomFieldMap/ProductQuoteLine_Field1
+  - CustomFieldMap/ProductQuoteLine_Field2
+  - CustomFieldMap/ProductQuoteLine_Field3
+  - CustomFieldMap/Quote_EffDate_Asset_EffDate
+  - CustomFieldMap/Quote_EndDate_Asset_ExpDate
+  - CustomFieldMap/Quote_Name_Asset_Name
+  - CustomFieldMap/Quote_Term_Asset_Term
+  - CustomFieldMap/Quote_Premium_Asset_Premium
+  - CustomFieldMap/CensusMemberContact_Field1
+  - CustomFieldMap/Asset_Premium_Quote_Premium
+  - CustomFieldMap/Asset_Term_Quote_Term
+  - CustomFieldMap/CensusMemberContact_Field2
+  - CustomFieldMap/CensusMemberContact_Field3
+  - CustomFieldMap/CensusMemberContact_Field4
+  - CustomFieldMap/CensusMemberContact_Field5
+  - CustomFieldMap/FSC_Policy_EffDate_Quote_EffDate
+  - CustomFieldMap/FSC_Quote_Premium_Policy_Premium
+  - CustomFieldMap/FSC_Quote_PrimaryProd_Policy_Producer
+  - CustomFieldMap/FSC_Quote_ProdCode_Policy_ProdCode
+  - CustomFieldMap/FSC_Quote_SPFreq_Policy_PFreq
+  - CustomFieldMap/FSC_Quote_Term_Policy_Term
+  - CustomFieldMap/FSC_Policy_ExpDate_Quote_EndDate
+  - CustomFieldMap/FSC_Policy_Name_Quote_Name
+  - DecisionMatrix/TIncrementoPorSiniestros
+  - DecisionMatrix/TablaDeducibles
+  - DecisionMatrix/HomologacionMarca
+  - DecisionMatrix/Modificadores
+  - DecisionMatrix/PAFactorDispositivos
+  - DecisionMatrix/PAFactorMarcaLinea
+  - DecisionMatrix/PAFactorProducto
+  - DecisionMatrix/PARecargoPorCodigoDANE
+  - DecisionMatrix/VariablesCodigo
+  - DecisionMatrix/VigenciasSinSiniestro
+  - DecisionMatrix/ProduccionIgualACobro
+  - DecisionMatrix/AsegurableVehiculo
+  - DecisionMatrix/Bonificaciones
+  - DecisionMatrix/CExpert_Bonificacion_NoVigente
+  - DecisionMatrix/CExpert_Bonificacion_Vigente
+  - DecisionMatrix/CexpertDescuentoSiniestros_V1
+  - DecisionMatrix/ExtraprimaRC
+  - DecisionMatrix/FactorPorMarca
+  - DecisionMatrix/FactorDeGastos
+  - DecisionMatrix/PruebaNegativo
+  - DecisionMatrix/HomologacionVariables
+  - DecisionMatrix/RelatividadMotos
+  - DecisionMatrix/TFactorBlindado
+  - DecisionMatrix/TFactorVerde
+  - DecisionMatrix/ZonaCirculacion
+  - DecisionMatrixVersion/TIncrementoPorSiniestros V1
+  - DecisionMatrixVersion/HomologacionVariable
+  - DecisionMatrixVersion/HomologacionMarca_V1
+  - DecisionMatrixVersion/Modificadores V1
+  - DecisionMatrixVersion/TablaDeducibles V1
+  - DecisionMatrixVersion/Modificadores V2
+  - DecisionMatrixVersion/PAFactorDispositivos V1
+  - DecisionMatrixVersion/PAFactorMarcaLinea V1
+  - DecisionMatrixVersion/PAFactorProducto V1
+  - DecisionMatrixVersion/PARecargoPorCodigoDANE V1
+  - DecisionMatrixVersion/VariablesCodigo V1
+  - DecisionMatrixVersion/VigenciasSinSiniestro V1
+  - DecisionMatrixVersion/AsegurableVehiculo V1
+  - DecisionMatrixVersion/ProduccionIgualACobro V1
+  - DecisionMatrixVersion/Bonificaciones V1
+  - DecisionMatrixVersion/CExpert_Bonificacion_Vigente V1
+  - DecisionMatrixVersion/CexpertDescuentoSiniestros_V1 V1
+  - DecisionMatrixVersion/ExtraprimaRC V1
+  - DecisionMatrixVersion/FactorPorMarca V1
+  - DecisionMatrixVersion/FactorDeGastos
+  - DecisionMatrixVersion/PruebaNegativo V1
+  - DecisionMatrixVersion/RelatividadMotos
+  - DecisionMatrixVersion/RelatividadMotos
+  - DecisionMatrixVersion/TFactorBlindado V1
+  - DecisionMatrixVersion/TFactorVerde V1
+  - DecisionMatrixVersion/RelatividadMotos
+  - DecisionMatrixVersion/PAFactorMarcaLinea V2
+  - DecisionMatrixVersion/VigenciasSinSiniestro V2
+  - DecisionMatrixVersion/TIncrementoPorSiniestros V2
+  - DecisionMatrixVersion/CExpert_Bonificacion_NoVigente
+  - DataRaptor/CreateInteraction
+  - DataRaptor/CreateInteractionContact
+  - DataRaptor/CreateInteractionTopics
+  - DataRaptor/CreateLineItems
+  - DataRaptor/CreateNewErrorLog
+  - DataRaptor/InsReadAccountPolicies
+  - DataRaptor/InsReadAccountPolicyClaims
+  - DataRaptor/LOG_RegistroDeBitacoraDeIntegraciones
+  - DataRaptor/SURAEnmascararCadenas
+  - DataRaptor/SURAGuardarSolicitanteCotizacionEnPausa
+  - DataRaptor/SURATransformarResultadoCexpertMatrix
+  - DataRaptor/ObtenerProducer
+  - DataRaptor/ObtenerTemplateDeCotizacion
+  - DataRaptor/PAGOS_ObtenerDatosPagadorByPolicyId
+  - DataRaptor/PAGOS_ObtenerDatosProductoByPolicyId
+  - DataRaptor/CreacionDeDocumentoIdent
+  - DataRaptor/CreacionDeOportunidad
+  - DataRaptor/CrearProducer
+  - DataRaptor/CreateContactInteractionTopic
+  - DataRaptor/CreateContractVersionLines
+  - DataRaptor/SURADataRaptorGuardarReclamanteIdentity
+  - DataRaptor/SURAautoPostInjuredPersonContactClaimInjuredPersonIPRelated
+  - DataRaptor/InsExtractAccountDetails
+  - DataRaptor/InsGetAccountDetails
+  - DataRaptor/InsGetAccountInsurancePolicyList
+  - DataRaptor/InsGetAccountPolicyList
+  - DataRaptor/InsGetAccountQuoteList
+  - DataRaptor/SURAautoTrnInjPrsnUpdtClaimInjPersonIP
+  - DataRaptor/PAGOS_ObtenerDatosCotizacionByQuoteId
+  - DataRaptor/SURATransformDataForAseguradoJSON
+  - DataRaptor/SuraCrearLeadProceso
+  - DataRaptor/TransformRatingInputs
+  - DataRaptor/TransformTest
+  - DataRaptor/TransformarDataParaGuardarLogTarifa
+  - DataRaptor/TransformarNumeroDocumentoAsegurado
+  - DataRaptor/TransformarObjetoSiniestro
+  - DataRaptor/InsGetAssetDetails
+  - DataRaptor/InsGetInsurancePolicyDetails
+  - DataRaptor/InsGetPolicyClaimList
+  - DataRaptor/InsGetPolicyDetails
+  - DataRaptor/InsGetPolicyTransactionDetails
+  - DataRaptor/SURAAccountSearchTypeAhead
+  - DataRaptor/SURAinsReadAccountByAccountId
+  - DataRaptor/SURAInputsForRatingProducts
+  - DataRaptor/SURATranformReclamanteClaim
+  - DataRaptor/SURAExtractDocumentId
+  - DataRaptor/GenericDocuSignGetDocuments
+  - DataRaptor/GenericDocuSignTransformDocuments
+  - DataRaptor/GetAttributesByProduct
+  - DataRaptor/GetContract
+  - DataRaptor/GetDocumentTemplates
+  - DataRaptor/SURACrearLeadPorFallaGenerarUrlPago
+  - DataRaptor/SURAinsReadContactByContactId
+  - DataRaptor/SURA_Coberturas
+  - DataRaptor/SURAValorDevolucionPost
+  - DataRaptor/SARLAFT_ObtenerDatosCotizacionByQuoteId_Clone
+  - DataRaptor/CrearNumeroPrepoliza
+  - DataRaptor/SURATransformarResultadoMatrix
+  - DataRaptor/SURAgetAnotherQuotesDetails
+  - DataRaptor/SURAgetCiudadesByName
+  - DataRaptor/SURAgetPaisByName
+  - DataRaptor/MapInsuredItems
+  - DataRaptor/SURATransformValuesPolitics
+  - DataRaptor/ExtractGroupQuote
+  - DataRaptor/FSCTransToCreatePolicyCreateUpdatePolicyIP
+  - DataRaptor/FormPlacaLlenadoAut
+  - DataRaptor/GET_DetallesDocumentoCotizacion
+  - DataRaptor/GenericDocuSignGetContacts
+  - DataRaptor/SURAautoPost3PartyWellClaim3PartyIP
+  - DataRaptor/SURAExtraerSufijoParaNumeroPrepoliza
+  - DataRaptor/ConvertURLToBase64
+  - DataRaptor/SURATransformDataForItemJSON
+  - DataRaptor/ConvertirJSONVehiculos
+  - DataRaptor/CreacionDeCotizacionesALT
+  - DataRaptor/CCM_ObtenerDatosConfiguracion
+  - DataRaptor/CCM_ObtenerDatosPolizaByPolicyId
+  - DataRaptor/CCM_ObtenerDatosResponsableDePagoByPolicyId
+  - DataRaptor/SURAValidateCiudadesByName
+  - DataRaptor/GuardadoAdicionalCotizacion
+  - DataRaptor/GuardarLogTarifa
+  - DataRaptor/GuestUserDocGenSampleExtractDocumentTemplatesLWC
+  - DataRaptor/SURAFscReadPolicyDetails
+  - DataRaptor/InsAccountTransactions
+  - DataRaptor/InsExtractAccountBillingDetails
+  - DataRaptor/DetallesInicialesDeOportunidad
+  - DataRaptor/DocGenSampleExtractDocumentTemplateByIdLWC
+  - DataRaptor/DocGenSampleExtractDocumentTemplatesLWC
+  - DataRaptor/CreateOwnerPersonAccount
+  - DataRaptor/DetallesDeCuenta
+  - DataRaptor/SURAGetLeadDetails
+  - DataRaptor/SURAGetSwitchURL
+  - DataRaptor/SURA_ItemAsegurable
+  - DataRaptor/GetDocumentTemplatesForType
+  - DataRaptor/GetMultiDocumentTemplatesForType
+  - DataRaptor/GetProducts
+  - DataRaptor/GetUserInformation
+  - DataRaptor/GuardaInputsTarificacion
+  - DataRaptor/InsGetPolicyTransactionList
+  - DataRaptor/InsGetQuoteByProducer
+  - DataRaptor/InsGetQuoteDetails
+  - DataRaptor/InsReadAccountContactDetails
+  - DataRaptor/InsReadAccountDetails
+  - DataRaptor/TransformInputsQuoteServiceWithOutOpp
+  - DataRaptor/SURASearchQuoetRecordType
+  - DataRaptor/SURATransformarModificadoresJSON
+  - DataRaptor/SURAautoTrn3PartyWellUpdtClaim3PartyWellIP
+  - DataRaptor/TestDateUnixTime
+  - DataRaptor/TRNS_DetallesDocumentoCotizacion
+  - DataRaptor/TransformDataRaptor
+  - DataRaptor/TransformInputsQuoteService
+  - DataRaptor/TransformNewInteraction
+  - DataRaptor/TransformPolicyId
+  - DataRaptor/SURAExtractProductFromQuoteId
+  - DataRaptor/PAGOS_ObtenerMetodosPagoActivos
+  - DataRaptor/SARLAFT_ObtenerDatosAseguradoByPolicyId
+  - DataRaptor/SARLAFT_ObtenerDatosPagadorByPolicyId
+  - DataRaptor/SARLAFT_ObtenerDatosPolizaByPolicyId
+  - DataRaptor/SURA_ObtenerMontoMaximoDePrima
+  - DataRaptor/SURASalarioMinimoLegalVigente
+  - DataRaptor/SURATransformarDataParaPoliticaSuscripcion
+  - DataRaptor/SURATransformarJsonParaValidarSiniestro
+  - DataRaptor/SURATransformarJsonParaValidarSiniestroAsegurado
+  - DataRaptor/SURATransformarJsonParaValidarSiniestroVehiculo
+  - DataRaptor/SURAautoPost3PartyDriverClaim3PartyIPRelated
+  - DataRaptor/SURAExtraerCoberturaClaimApertura
+  - DataRaptor/AccountSearch
+  - DataRaptor/BuscarDocumento
+  - DataRaptor/BuscarSwitchLogTarifa
+  - DataRaptor/CCM_ObtenerDatosAseguradoByPolicyId
+  - DataRaptor/DocGenSampleGetDocumentTemplatesForType
+  - DataRaptor/ExtractAccountFromContact
+  - DataRaptor/ExtractAssetBasedOnAccount
+  - DataRaptor/ExtractContractRecordTypes
+  - DataRaptor/ExtractDocumentTemplateByTemplateType
+  - DataRaptor/SearchAccountByDocument
+  - DataRaptor/SearchAccountByOpportunityId
+  - DataRaptor/SearchExternalHarcodeProducer
+  - DataRaptor/SearchProducerByUserDNA
+  - DataRaptor/SearchProducerForExternalUser
+  - DataRaptor/esLineaPermitida
+  - DataRaptor/TransformarValorPrimas
+  - DataRaptor/Update_Policy
+  - DataRaptor/SURADataRaptorGuardarConductorSiniestro
+  - DataRaptor/SURADataRaptorGuardarConductorSiniestro
+  - DataRaptor/GET_DetallesDocumentoCotizacionCopy1691580044761
+  - DataRaptor/TRNS_DetallesDocumentoCotizacionCopy1691580044761
+  - DataRaptor/SURAInputsForRatingProductsV2
+  - DataRaptor/CCM_ObtenerDatosPolizaCoberturasByPolicyId
+  - DataRaptor/SURAExtraerInformacionParaPDFCotizaciones
+  - DataRaptor/SURADataRaptorGuardarConductorIdentity
+  - DataRaptor/SURAExtraerValorDevolucion
+  - DataRaptor/SURAExtraerValoresAnualesPorCobertura
+  - DataRaptor/SURATransformDataForTomadorJSON
+  - DataRaptor/newDepedency
+  - DataRaptor/SURAExtractInsurancePolicyDetails
+  - DataRaptor/SURAInsLoadClaimRecovery
+  - DataRaptor/SURAGuardarSolicitanteDatosErrados
+  - DataRaptor/SURAClaimDataRecoveryExtractW
+  - DataRaptor/ModifyDocumentSetting
+  - DataRaptor/DataRaptorTransformClaimCoberturas
+  - DataRaptor/SURAinscreateBusinessAccount
+  - DataRaptor/SARLAFT_ObtenerDatosCotizacionByQuoteId
+  - DataRaptor/DocumentExtract
+  - DataRaptor/SURAinsTransformRecoveryData
+  - DataRaptor/SURAClaimDataRecoveryExtract
+  - DataRaptor/getActivePoliciesByInsuredDocumentAndPlate
+  - DataRaptor/SURAGetQuoteId
+  - DataRaptor/SURAUpdatePolicy
+  - DataRaptor/SURAUpdatePolicyAndQuoteValues
+  - DataRaptor/SURAObtenerDatosPolizaSiniestros
+  - DataRaptor/SURAautoTransCreateFSCClaimCreateClaimIP
+  - DataRaptor/SURADataRaptorExtractActionConsecutivo
+  - DataRaptor/SURADataRaptorPostActionConsecutivo
+  - DataRaptor/SURADataRaptorGuardarReclamante
+  - DataRaptor/SURAautoTrn1PartyVehUpdtClaim1PartyVehIP
+  - DataRaptor/SURAautoPost3PartyDriverClaim3PartyIP
+  - DataRaptor/SURAautoTrn3PartyVehUpdtClaim3PartyVehIP
+  - DataRaptor/SURAautoTrn3PartyVehUpdtClaim3PartyVehIPEdit
+  - DataRaptor/SURAautoPostInjuredPersonContactClaimInjuredPersonIP
+  - DataRaptor/SURAautoTransInjuredPersonUpdateFSCClaimClaimInjuredPersonIP
+  - DataRaptor/SURAClaimGrabarFallecido
+  - DataRaptor/SURADataraptorClaimsAbiertos
+  - DataRaptor/SURAInsUpdateClaimName
+  - DataRaptor/SURATransformDataForPDF
+  - DataRaptor/ConvertDocumentType
+  - DataRaptor/SURATransformDataForPDFCopy1699039916880
+  - DataRaptor/SURAExtraerInformacionParaPDFCotizacionesCopy1699039916880
+  - DataRaptor/SURAautoPost3PartyWitnessClaim3PartyIPRelated
+  - DataRaptor/SURAObtenerDatosPolizaSiniestrosCancelacion
+  - DataRaptor/SURATransformDataPolizasSiniestro
+  - DataRaptor/SURATransformPolicyId
+  - DataRaptor/SURAGetNumericoContableVentas
+  - DataRaptor/SURAautoTrn3PartyWitnessUpdtClaim3PartyWitnessIP
+  - DataRaptor/SURAautoPost3PartyWellClaim3PartyIPRelated
+  - DataRaptor/SURAautoPost3PartyWitnessClaim3PartyIP
+  - DataRaptor/SURAautoPostThirdPartyDriverContactClaimThirdPartyVehicleIP
+  - DataRaptor/PAGOS_ObtenerDatosPagadorByQuoteId
+  - DataRaptor/PAGOS_ObtenerDatosProductoByQuoteId
+  - DataRaptor/SURAinsClaimsReadFSCParticipantParticipantIP
+  - DataRaptor/SARLAFT_ObtenerDatosPolizaByQuoteId
+  - DataRaptor/SARLAFT_ObtenerDatosPagadorByQuoteId
+  - DataRaptor/SARLAFT_ObtenerDatosAseguradoByQuoteId
+  - DataRaptor/SURADataRaptorTransformActionRC
+  - DataRaptor/CCM_ObtenerDatosPolizaCoberturasByPolicyIdV2
+  - DataRaptor/SURAExtraerInformacionParaPDFCotizacionesCopy1694099934702
+  - DataRaptor/SURATransformDataForPDFCopy1694099934702
+  - DataRaptor/SURATransformarArregloPolizaCancelacion
+  - DataRaptor/SURADataRaptorPostActualizaLogPoliza
+  - DataRaptor/SURADataRaptorPostAgregarProgramacion
+  - DataRaptor/SURAClaimTransformarArregloPoliza
+  - DataRaptor/SURAClaimObtenerHolder
+  - DataRaptor/SURAFSCTransPolicyDetailsCancelPolicyOS
+  - DataRaptor/SURACLAIMautoPostInjuredClaimInjuredIP
+  - DataRaptor/SURACalcularValorModificado
+  - DataRaptor/SURAClaimDataRaptorExtractInjury
+  - DataRaptor/SURADataraptorExtractReclamante
+  - DataRaptor/SURAActualizarLeadPagoMensual
+  - DataRaptor/SURADataRaptorTransformCoberturas
+  - DataRaptor/SURAValidarCoberturaClaimApertura
+  - DataRaptor/SURATransformFasecoldaDataForCexpert
+  - DataRaptor/GenerarLeadCumulo
+  - DataRaptor/SURAExtractDataForLead
+  - DataRaptor/DatosErradosTest
+  - DataRaptor/FscReadPolicyDetails
+  - DataRaptor/SURAExtraerInformacionParaPDFCotizacionesMensuales
+  - DataRaptor/SOQL test
+  - DataRaptor/SURAUpdatePaymentEntry
+  - DataRaptor/FSCTransToCreatePolicyCreateUpdatePolicyIPTEST
+  - DataRaptor/DRGuardarSolicitanteDatosErrados
+  - DataRaptor/SURAAseguradoStro
+  - DataRaptor/TestingDates
+  - DataRaptor/SURAExtraerValoresReglaDeMovilidad
+  - DocumentTemplate/SURACotizacionMensual
+  - DocumentTemplate/SURACotizacion
+  - ExpressionSet/MOTOSPlanEsencial
+  - ExpressionSet/MOTOSPlanPlus
+  - ExpressionSet/MOTOSPlanTotal
+  - ExpressionSet/ConsultaGastos
+  - ExpressionSet/ConsultaModificadores
+  - ExpressionSet/ConsultaRelatividad
+  - ExpressionSet/EstandarizaVariables
+  - ExpressionSet/HomologacionMarca
+  - ExpressionSet/PrimaDevolucion
+  - ExpressionSet/PrimaAsistencia
+  - ExpressionSet/PrimaPTD
+  - ExpressionSet/PrimaPTH
+  - ExpressionSet/PrimaRC
+  - ExpressionSet/PrimaRCBienes
+  - ExpressionSet/PrimaRCPersonas
+  - ExpressionSet/VariablesEstandarizadas
+  - ExpressionSetVersion/MOTOSPlanEsencial V1
+  - ExpressionSetVersion/MOTOSPlanPlus V1
+  - ExpressionSetVersion/MOTOSPlanTotal V1
+  - ExpressionSetVersion/ConsultaGastos V1
+  - ExpressionSetVersion/ConsultaModificadores V1
+  - ExpressionSetVersion/ConsultaRelatividad V1
+  - ExpressionSetVersion/EstandarizaVariables V1
+  - ExpressionSetVersion/HomologacionMarca V1
+  - ExpressionSetVersion/PrimaDevolucion V1
+  - ExpressionSetVersion/PrimaAsistencia V1
+  - ExpressionSetVersion/PrimaPTD V1
+  - ExpressionSetVersion/PrimaPTH V1
+  - ExpressionSetVersion/PrimaRC V1
+  - ExpressionSetVersion/PrimaRCBienes V1
+  - ExpressionSetVersion/PrimaRCPersonas V1
+  - ExpressionSetVersion/VariablesEstandarizadas V1
+  - ExpressionSetVersion/ConsultaModificadores V2
+  - ExpressionSetVersion/ConsultaGastos V2
+  - GeneralSettings/CalculationProcedureCachePartition
+  - GeneralSettings/StateModelRulesCachePartition
+  - GeneralSettings/LoggingEnabled
+  - GeneralSettings/OmniAnalyticsTrackAsEvent
+  - GeneralSettings/OmniAnalyticsEnabled
+  - GeneralSettings/OmniAnalyticsTrackAsObject
+  - IntegrationProcedure/PAGOS_ValidacionSARLAFTGuestUser
+  - IntegrationProcedure/SuraValidate_Politics
+  - IntegrationProcedure/PAGOS_ValidacionSARLAFT
+  - IntegrationProcedure/SURA_delete3rdPartyVehicle
+  - IntegrationProcedure/CCM_EnviarBienvenida
+  - IntegrationProcedure/InsRecordHeader_getDetails
+  - IntegrationProcedure/SURA_AccountProcessing
+  - IntegrationProcedure/SURA_RecuperarCoberturasReclamacion
+  - IntegrationProcedure/SURA_SearchProductAndStablishTitleByQuoteId
+  - IntegrationProcedure/InsRecordHeaderInsurancePolicy_getDetails
+  - IntegrationProcedure/CEXPERT_BonificacionNoVigente
+  - IntegrationProcedure/MOTOS_ValidarRiesgo
+  - IntegrationProcedure/ValidacionCreacionDeCuenta_Cuenta
+  - IntegrationProcedure/SURA_ObtenerDatospolizaCancelacion
+  - IntegrationProcedure/SURA_GetCexpertBonAndCansStros
+  - IntegrationProcedure/testDependecy_testDependecy
+  - IntegrationProcedure/LogTarificacion_PlanTotal
+  - IntegrationProcedure/SURA_TransformarDatosParaCrearLead
+  - IntegrationProcedure/InsAccount_GetStories
+  - IntegrationProcedure/SURA_deleteInvolvedInjury
+  - IntegrationProcedure/CustomerInteractionContact_Creation
+  - IntegrationProcedure/LogTarificacion_PlanEsencial
+  - IntegrationProcedure/SURA_ConsultarFasecoldaGuestUser
+  - IntegrationProcedure/InsuredItems_OutputMap
+  - IntegrationProcedure/SURA_AddThirdPartyWellToClaim
+  - IntegrationProcedure/SURA_SeleccionarDetallesPolizaCancelacion
+  - IntegrationProcedure/Get_RatedPlansService
+  - IntegrationProcedure/SURA_ClaimFirstPartyVehicle
+  - IntegrationProcedure/Creacion_Cuenta
+  - IntegrationProcedure/SURA_ConsultarFasecolda
+  - IntegrationProcedure/SURA_ClaimDeleteWitness
+  - IntegrationProcedure/SURA_PrimaAnualMaxima
+  - IntegrationProcedure/SURA_ClaimThirdPartyVehicleEdit
+  - IntegrationProcedure/InsRecordHeaderQuote_getDetails
+  - IntegrationProcedure/SURA_ClaimSeleccionarDetallesPoliza
+  - IntegrationProcedure/CEXPERT_BonificacionVigente
+  - IntegrationProcedure/GuardarLogTarifa_TodosLosPlanesMOTOS
+  - IntegrationProcedure/Creacion_Oportunidad
+  - IntegrationProcedure/LogTarificacion_PlanPlus
+  - IntegrationProcedure/SURA_ValidarRiesgo
+  - IntegrationProcedure/SURA_EliminarUltimoDocumentgenerado
+  - IntegrationProcedure/QA_TarificacionPlanTotal
+  - IntegrationProcedure/SURA_GenerarPolicyTerms
+  - IntegrationProcedure/CustomerInteractionAccount_Creation
+  - IntegrationProcedure/SURA_ClaimDeleteWell
+  - IntegrationProcedure/Creacion_HistoricoCotizaciones
+  - IntegrationProcedure/Issue_Producer
+  - IntegrationProcedure/SURA_BuscarPrepolizasPorPlaca
+  - IntegrationProcedure/Create_ErrorLog
+  - IntegrationProcedure/SURA_ConsultaRiesgoGuestUser
+  - IntegrationProcedure/InsIntelligence_offers
+  - IntegrationProcedure/InsRecordHeaderAsset_getDetails
+  - IntegrationProcedure/SURA_Documentgenerator
+  - IntegrationProcedure/SURA_ConsultaVehiculoPorPlacaWithoutLog
+  - IntegrationProcedure/GenerarDocumentoCotizacion_ServerSide
+  - IntegrationProcedure/SURA_ConsultaRiesgo
+  - IntegrationProcedure/Interaction_handleInteractionFieldClick
+  - IntegrationProcedure/SURA_CrearCoberturaClaim
+  - IntegrationProcedure/SURA_GuardarValorDeducibleCotizacion
+  - IntegrationProcedure/POC_DummyService
+  - IntegrationProcedure/SURA_ConsultarFasecolda_Mock
+  - IntegrationProcedure/SURA_CreatePlanPlusQuote
+  - IntegrationProcedure/CustomerInteractionAccountCMT_Creation
+  - IntegrationProcedure/SURA_ClaimThirdPartyVehicle
+  - IntegrationProcedure/MOTOS_ConsultarSiniestro
+  - IntegrationProcedure/SURA_AddThirdPartyWitnessToClaim
+  - IntegrationProcedure/SURA_CreatePlanEsencialQuote
+  - IntegrationProcedure/QA_TarificacionPlanPlus
+  - IntegrationProcedure/SURA_ConsultarBase
+  - IntegrationProcedure/CCM_EnviarBienvenidaGuestUser
+  - IntegrationProcedure/SURA_AddInjuredPersonToClaimAuto
+  - IntegrationProcedure/SURA_ConsultarSiniestroCexpert
+  - IntegrationProcedure/SURA_ConsultarVehiculo
+  - IntegrationProcedure/QA_TarificacionPlanEsencial
+  - IntegrationProcedure/SURA_ObtenerDatoPolizaSiniestros
+  - IntegrationProcedure/EsLineaPermitida_Integracion
+  - IntegrationProcedure/SURA_ValidatePoliciesByPlaca
+  - IntegrationProcedure/SURA_GuardarLead
+  - IntegrationProcedure/SURA_ConsultarSiniestro365Dias
+  - IntegrationProcedure/CustomerInteractionContactCMT_Creation
+  - IntegrationProcedure/PAGOS_GenerarUrlPagoGuestUser
+  - IntegrationProcedure/BuscarCuenta_DocumentId
+  - IntegrationProcedure/SURATest_CrearPolizaTest
+  - IntegrationProcedure/SURA_CancelPolicyService
+  - IntegrationProcedure/SURA_ConsultarSiniestro
+  - IntegrationProcedure/Validar_Siniestro
+  - IntegrationProcedure/SURA_EsLineaPermitidaIntegracion
+  - IntegrationProcedure/SURA_CreateClaim
+  - IntegrationProcedure/SURA_MatrixIncrementoSiniestro
+  - IntegrationProcedure/SURA_ConsultaVehiculoPorPlaca
+  - IntegrationProcedure/PAGOS_GenerarUrlPago
+  - IntegrationProcedure/SURA_CreatePlantOTALQuote
+  - IntegrationProcedure/SURA_MatrixCexpertDescuentoSiniestros
+  - IntegrationProcedure/CreateTest_test
+  - IntegrationProcedure/SURA_ConsultarVehiculoGuestUser
+  - IntegrationProcedure/SURA_ConsultaVehiculoPorPlacaGuestUser
+  - IntegrationProcedure/SURA_CrearPoliza
+  - IntegrationProcedure/Get_RatedPlansServicePlanEsencial
+  - IntegrationProcedure/Create_Quote
+  - IntegrationProcedure/Get_RatedPlansServicePlanTotal
+  - IntegrationProcedure/Get_RatedPlansServicePlanPlus
+  - IntegrationRetryPolicy/ee28973a-6a66-4ee0-9495-24e101fc253c
+  - IntegrationRetryPolicy/e70f3f84-1aa1-4f50-9975-9dd54563687c
+  - ItemImplementation/NoOp
+  - ItemImplementation/Assetize
+  - ItemImplementation/BackPropagate
+  - ItemImplementation/Calculate
+  - ItemImplementation/AssetizeOrderItem
+  - ManualQueue/Fallout Error Queue
+  - OmniScript/yessith_test_English
+  - OmniScript/InteractionLauncher_AccountSearch_English
+  - OmniScript/test_TableTest_English
+  - OmniScript/SURA_FormularioReclamacionSpanish_Spanish
+  - OmniScript/Product_Select_English
+  - OmniScript/SURA_NoEstamosPreparadosSpanish_Spanish
+  - OmniScript/Taxes_Fees_English
+  - OmniScript/Documentation_OmniAnalytics_English
+  - OmniScript/SURA_EstamosProcesandoTuPagoSpanish_Spanish
+  - OmniScript/SURA_GenerarCotizacionAlt_Spanish
+  - OmniScript/SURA_LeadResumenDeCompra_Spanish
+  - OmniScript/Documentos_Cotizacion_English
+  - OmniScript/SURA_FormularioPlacaSpanish_Spanish
+  - OmniScript/docGenerationSample_singleWebVF_English
+  - OmniScript/test_Pago_English
+  - OmniScript/SURA_ClaimRecovery_Spanish
+  - OmniScript/SURA_Error500_Spanish
+  - OmniScript/docGenerationSample_multiDocxVF_English
+  - OmniScript/SURA_DatosErradosRUNTSpanish_Spanish
+  - OmniScript/docGenerationSample_singleDocxVF_English
+  - OmniScript/SURA_YaTenemosTusDatosSpanish_Spanish
+  - OmniScript/test_TableTest_Spanish
+  - OmniScript/SURA_LeadCumulo_Spanish
+  - OmniScript/SURA_FormularioPlacaSpanishYessith_Spanish
+  - OmniScript/test_CommunitiesParams_English
+  - OmniScript/SURA_CotizacionEnPausaSpanish_Spanish
+  - OmniScript/SURA_FormularioPlacaSpanishNamedCredentialTest_Spanish
+  - OrchestrationItemDefinition/OffPlatform_Callout_Template_OffPlatform_PlanDefinition
+  - OrchestrationItemDefinition/OffPlatform_AutoTask_Template_OffPlatform_PlanDefinition
+  - OrchestrationItemDefinition/OffPlatform_ItemDefinition_OffPlatform_PlanDefinition
+  - OrchestrationItemDefinition/Resolve Fallout_Resolve Orchestration Fallouts
+  - OrchestrationPlanDefinition/OffPlatform_PlanDefinition
+  - OrchestrationPlanDefinition/Resolve Orchestration Fallouts
+  - OrchestrationQueueAssignmentRule/Default Normal Priority Queue
+  - PriceList/TAX_IVA
+  - Pricebook2/Standard Price Book
+  - Product2/0a579b1f-98cf-fa33-ad3c-fcc857d29159
+  - Product2/10ab5eb7-1ab5-f14f-43db-1893052ec772
+  - Product2/19ca19c6-4d9f-63e6-91fc-dd0549e821b1
+  - Product2/4657f0be-ce40-58b5-847b-05d019e80df9
+  - Product2/6cb2a7e6-c74d-abec-f073-9ea760c1a0e4
+  - Product2/93d68e80-1130-121c-b7a4-81daa3c7604c
+  - Product2/95d64ecc-b532-ee28-7549-17fae78450d8
+  - Product2/9a9f8e0b-f237-08ed-cd63-71179cfa2669
+  - Product2/a4657060-3a73-5d5d-baa2-98fc2ad9ff7b
+  - Product2/b7914a6f-2a57-f97d-cc53-114e120f1876
+  - Product2/e0a1220c-c35f-2bff-ce4a-45cad1710ca5
+  - Product2/1a5c1480-3ccd-5b5a-09c7-08204c3c24cd
+  - Product2/2080178c-0c87-33bb-a68f-3a386d3e5d10
+  - Product2/3590a577-9d01-7f3f-4fc5-d63cb81bcb7e
+  - Product2/5e2b02b6-f963-debc-158d-b9767bab84c0
+  - Product2/91d62fd4-8bc3-5b35-bd76-d046a2be2825
+  - Product2/a86c6d19-68bf-395f-1a43-5a8f906aff70
+  - Product2/b23c5ab1-2a0a-d578-2663-91d1bb7fef85
+  - Product2/bf071ca2-b762-a20e-dac0-b1b932b8ac01
+  - Product2/13dfbf62-6adf-6bcd-819a-e019b38e5769
+  - Product2/fd5448dc-a37b-d250-d9b4-932e9041fc33
+  - Product2/f25a1f96-9b6d-16db-22c2-4afe07f06154
+  - Product2/86763ac9-90ea-6201-011a-2eb8af5d0a3b
+  - ThorOrchestrationQueue/c8d24688-392a-a7c4-63d5-de6f165cbbb5
+  - ThorOrchestrationQueue/699460dd-b9c5-8d2a-f465-8a328602942f
+  - ThorOrchestrationQueue/65698bf6-8684-0b4a-c2ab-8fdd905162f0
+  - VlocityAction/Configure Order
+  - VlocityAction/SampleInteractionAccount-ViewDetails
+  - VlocityAction/VerifyActionProcessService
+  - VlocityAction/View Provisioning Status
+  - VlocityAction/View Record
+  - VlocityAction/Policy-Log Dispute
+  - VlocityAction/Policy-PolicyDetails
+  - VlocityAction/Story_updateTask
+  - VlocityAction/Opportunity-PersonalMarketing
+  - VlocityAction/SampleDocxTemplateDocGeneration
+  - VlocityAction/SampleMultiDocxTemplateDocGeneration
+  - VlocityAction/SampleWebTemplateDocGeneration
+  - VlocityCard/Interaction Campaign Story
+  - VlocityCard/Interaction Case Story
+  - VlocityCard/Interaction Claim Story
+  - VlocityCard/Interaction Customer Interaction Story
+  - VlocityCard/Interaction Event Story
+  - VlocityCard/Interaction Non Held Policy Story
+  - VlocityCard/Interaction Note Story
+  - VlocityCard/Interaction Opportunity Story
+  - VlocityCard/Interaction Order Story
+  - VlocityCard/Interaction Policy Story
+  - VlocityCard/Interaction Saved OmniScript Story
+  - VlocityCard/Interaction Task Story
+  - VlocityCard/interaction-profile-account-info-slds
+  - VlocityCard/interaction-profile-account-slds
+  - VlocityCard/interaction-profile-contact
+  - VlocityCard/interaction-profile-contact-info
+  - VlocityCard/insAccountClaimsChildMobile_nds
+  - VlocityCard/insAccountClaimsChild_nds
+  - VlocityCard/insAccountClaimsMobile_nds
+  - VlocityCard/insAccountPolicyList
+  - VlocityCard/insAccountQuoteList
+  - VlocityCard/insAgentAccountHomeActions
+  - VlocityCard/insArticlesChild_nds
+  - VlocityCard/insArticles_nds
+  - VlocityCard/insBillingDescriptionChild_nds
+  - VlocityCard/insAccountPolicyListFlyout
+  - VlocityCard/insAccountAssetHeader
+  - VlocityCard/insAccountClaims_nds
+  - VlocityCard/insAccountHeader
+  - VlocityCard/insAccountInsurancePolicyList
+  - VlocityCard/interaction-feed
+  - VlocityCard/vlocity-interaction-acuity-sidebar-offer-card
+  - VlocityCard/Campaign Detail
+  - VlocityCard/campaign-member
+  - VlocityCard/ins-claims-admin-association-card
+  - VlocityCard/ins-claims-admin-injuries-association-card
+  - VlocityCard/ins-coverage-policy
+  - VlocityCard/ins-coverage-quote
+  - VlocityCard/ins-enrollment-card
+  - VlocityCard/ins-enrollment-future-card
+  - VlocityCard/ins-attribute-claims
+  - VlocityCard/ins-attributes-coverage
+  - VlocityCard/ins-attributes-insured
+  - VlocityCard/ins-required-documents-category
+  - VlocityCard/insBillingDescription_nds
+  - VlocityCard/insBillingStrategyChild_nds
+  - VlocityCard/insClaimParticipantsCard
+  - VlocityCard/insFooterMobile_nds
+  - VlocityCard/insFooter_nds
+  - VlocityCard/insHeaderBillingInfoMobile_nds
+  - VlocityCard/ins-attribute-claim-properties-spec
+  - VlocityCard/ins-attribute-claims-injuries-spec
+  - VlocityCard/ins-attributes-default
+  - VlocityCard/ins-attributes-product
+  - VlocityCard/Campaign Story
+  - VlocityCard/Campaign Story LWC
+  - VlocityCard/Case Story
+  - VlocityCard/Case Story LWC
+  - VlocityCard/Claim Story
+  - VlocityCard/Claim Story LWC
+  - VlocityCard/Contact
+  - VlocityCard/Customer Interaction Story
+  - VlocityCard/Customer Interaction Story LWC
+  - VlocityCard/DocumentationTestCard
+  - VlocityCard/Event Story
+  - VlocityCard/Event Story LWC
+  - VlocityCard/Held Product Story
+  - VlocityCard/Non Held Policy Story
+  - VlocityCard/Non Held Policy Story LWC
+  - VlocityCard/Non Held Product Story
+  - VlocityCard/Note Story
+  - VlocityCard/Note Story LWC
+  - VlocityCard/Opportunity Story
+  - VlocityCard/Opportunity Story LWC
+  - VlocityCard/Order Story
+  - VlocityCard/ins-product-rules-eligibility-card
+  - VlocityCard/ins-rating-fact-card
+  - VlocityCard/SURAFlexRecoveryInitiatedUnsuccessful
+  - VlocityCard/ins-asset-actions-card
+  - VlocityCard/ins-insurance-policy-actions-card
+  - VlocityCard/ins-quote-actions-card
+  - VlocityCard/Campaign Attribute Categories
+  - VlocityCard/Campaign Campaign Story
+  - VlocityCard/Campaign Case Story
+  - VlocityCard/Campaign Claim Story
+  - VlocityCard/Campaign Event Story
+  - VlocityCard/Campaign Member Action Log Story
+  - VlocityCard/Campaign Member Detail
+  - VlocityCard/Campaign Member Detail Active
+  - VlocityCard/Campaign Member Detail Card
+  - VlocityCard/Campaign Member Log Actions2
+  - VlocityCard/Campaign Non Held Policy Story
+  - VlocityCard/Campaign Note Story
+  - VlocityCard/Campaign Opportunity Story
+  - VlocityCard/Campaign Policy Story
+  - VlocityCard/Campaign Saved OmniScript Story
+  - VlocityCard/Campaign Task Story
+  - VlocityCard/Saved OmniScript Story
+  - VlocityCard/Saved OmniScript Story LWC
+  - VlocityCard/Task Story
+  - VlocityCard/Task Story LWC
+  - VlocityCard/acuity-sidebar-offer-card
+  - VlocityCard/bar-chart
+  - VlocityCard/column-chart
+  - VlocityCard/community-content-layout-flyout-sample
+  - VlocityCard/donut-chart
+  - VlocityCard/gauge-chart
+  - VlocityCard/pie-chart
+  - VlocityCard/profile-account
+  - VlocityCard/profile-account-ActionGrid-slds
+  - VlocityCard/profile-account-info
+  - VlocityCard/profile-account-info-slds
+  - VlocityCard/profile-account-slds
+  - VlocityCard/ins-large-group-csv-upload-mapping-card
+  - VlocityCard/Order Story LWC
+  - VlocityCard/Policy Story
+  - VlocityCard/Policy Story LWC
+  - VlocityCard/ins-coverage
+  - VlocityCard/ins-insured-items
+  - VlocityCard/ins-product-taxes-card
+  - VlocityCard/SURALaunchCreacionDocumento
+  - VlocityCard/ins-enrollment-page-actions
+  - VlocityCard/ins-enrollment-manage-accounts-card
+  - VlocityCard/ins-large-group-quote-product-card
+  - VlocityCard/ins-large-group-quote-groups-card
+  - VlocityCard/ins-product-config-ClaimPropertiesSpec
+  - VlocityCard/ins-product-config-Claims
+  - VlocityCard/insPolicyListMobile_nds
+  - VlocityCard/insPolicyList_nds
+  - VlocityCard/insPolicyOverview_nds
+  - VlocityCard/insPolicyTransactionsChild_nds
+  - VlocityCard/insPolicyTransactionsContainer_nds
+  - VlocityCard/insQuoteHeader
+  - VlocityCard/insQuoteListCard
+  - VlocityCard/insRecentActivityChildMobile_nds
+  - VlocityCard/insRecentActivityChild_nds
+  - VlocityCard/insRecentActivityContainerMobile_nds
+  - VlocityCard/insRecentActivityContainer_nds
+  - VlocityCard/insSummaryInfoCard
+  - VlocityCard/insYourAgent_nds
+  - VlocityCard/SURATermsAndConditions
+  - VlocityCard/SURAGenerarNuevaCotizacion
+  - VlocityCard/SURAPoliticaDePrivacidadNo
+  - VlocityCard/SURAFlexInitiateRecovery3
+  - VlocityCard/ins-product-taxes-config
+  - VlocityCard/Community-account-card-sample
+  - VlocityCard/ins-add-product-dropdown
+  - VlocityCard/ins-product-model-insured-items
+  - VlocityCard/ins-small-group-add-product-dropdown
+  - VlocityCard/ins-product-rules-requirements-card
+  - VlocityCard/insHeaderBillingInfo_nds
+  - VlocityCard/insHeaderHomeMobile_nds
+  - VlocityCard/insHeaderHome_nds
+  - VlocityCard/insHeaderPolicyMobile_nds
+  - VlocityCard/insHeaderPolicy_nds
+  - VlocityCard/insInsurancePolicyHeader
+  - VlocityCard/insManageAccountMobile_nds
+  - VlocityCard/insManageAccount_nds
+  - VlocityCard/insManagePolicyMobile_nds
+  - VlocityCard/insManagePolicy_nds
+  - VlocityCard/insPolicyBillingChild_nds
+  - VlocityCard/insPolicyBillingTransactions_nds
+  - VlocityCard/insPolicyClaimsChild_nds
+  - VlocityCard/insPolicyClaimsContainer_nds
+  - VlocityCard/insPolicyIcon_nds
+  - VlocityCard/insPolicyItemsDetail_nds
+  - VlocityCard/insPolicyItemsFscDetail_nds
+  - VlocityCard/insPolicyListChildMobile_nds
+  - VlocityCard/insPolicyListChild_nds
+  - VlocityCard/insPolicyListFlyout_nds
+  - VlocityCard/ins-product-attributes-Coverages
+  - VlocityCard/ins-product-attributes-Default
+  - VlocityCard/ins-product-attributes-Insured-Items
+  - VlocityCard/ins-product-attributes-config
+  - VlocityCard/ins-product-config-ClaimInjurySpec
+  - VlocityCard/SURAinsManageClaimsnds
+  - VlocityCard/SURARuntInformation
+  - VlocityCard/SURAinsManageCancelnds
+  - VlocityCard/ins-coverages-attributes-config
+  - VlocityCard/SURAFlexRecoveryInitiated
+  - VlocityCard/SURAPoliticaDePrivacidad
+  - VlocityCard/SURATermsAndConditionDescription
+  - VlocityCard/SURAPoliticasDePrivacidadDescripcion
+  - VlocitySearchWidgetSetup/InteractionContact
+  - VlocitySearchWidgetSetup/InteractionAccount
+  - VlocityStateModel/FSC Claim
+  - VlocityUILayout/mobile-action-grid-home
+  - VlocityUILayout/mobile-action-grid-lead
+  - VlocityUILayout/mobile-contact-highlight
+  - VlocityUILayout/mobile-action-grid-contact
+  - VlocityUILayout/mobile-home-list
+  - VlocityUILayout/mobile-lead-highlight
+  - VlocityUILayout/mobile-policy-summary
+  - VlocityUILayout/mobile-account-highlight
+  - VlocityUILayout/mobile-action-grid
+  - VlocityUILayout/mobile-action-grid-account
+  - VlocityUILayout/interaction-action-layout
+  - VlocityUILayout/interaction-feed-layout
+  - VlocityUILayout/vlocity-interaction-console-right-sidebar-slds
+  - VlocityUILayout/vlocity-interaction-console-sidebar-slds
+  - VlocityUILayout/vlocity-interaction-story-slds
+  - VlocityUILayout/ins-coverage-dependent-opt-modal
+  - VlocityUILayout/ins-enrollment-home-page-header
+  - VlocityUILayout/ins-insured-items-attrs-container
+  - VlocityUILayout/ins-large-group-csv-upload-modal
+  - VlocityUILayout/ins-large-group-csv-upload-table
+  - VlocityUILayout/ins-large-group-quote-groups-card-modal
+  - VlocityUILayout/ins-large-group-quote-groups-modal
+  - VlocityUILayout/ins-policy-revenue-schedule
+  - VlocityUILayout/ins-product-attributes-config
+  - VlocityUILayout/ins-coverage-container
+  - VlocityUILayout/ins-insured-items-container
+  - VlocityUILayout/ins-product-taxes-container
+  - VlocityUILayout/campaign-add-member
+  - VlocityUILayout/campaign-add-member-list
+  - VlocityUILayout/campaign-member-detail
+  - VlocityUILayout/campaign-member-filter
+  - VlocityUILayout/campaign-member-log-actions
+  - VlocityUILayout/campaign-member-manager
+  - VlocityUILayout/campaign-results
+  - VlocityUILayout/campaign-status
+  - VlocityUILayout/community-content-layout
+  - VlocityUILayout/layout-aura-lwc-communication
+  - VlocityUILayout/ins-asset-actions
+  - VlocityUILayout/ins-insurance-policy-actions
+  - VlocityUILayout/ins-quote-actions
+  - VlocityUILayout/ins-product-attributes-container
+  - VlocityUILayout/ins-quote-coverages-add-modal
+  - VlocityUILayout/ins-quote-line-items-container
+  - VlocityUILayout/ins-quote-line-items-large-group
+  - VlocityUILayout/ins-quote-line-items-small-group
+  - VlocityUILayout/ins-required-documents
+  - VlocityUILayout/ins-small-group-quote-plans-container
+  - VlocityUILayout/Charts
+  - VlocityUILayout/Grid
+  - VlocityUILayout/community-content-layout-flyout-sample
+  - VlocityUILayout/console-right-sidebar-slds
+  - VlocityUILayout/console-sidebar
+  - VlocityUILayout/console-sidebar-slds
+  - VlocityUILayout/story-slds
+  - VlocityUILayout/campaign-base-grid
+  - VlocityUILayout/campaign-detail
+  - VlocityUILayout/campaign-member-list
+  - VlocityUILayout/campaign-member-stories
+  - VlocityUILayout/ins-product-rules
+  - VlocityUILayout/ins-rating-fact-container
+  - VlocityUILayout/ins-product-methods-helper
+  - VlocityUILayout/ins-product-rating-output-input-map
+  - VlocityUILayout/ins-claims-involved-injuries-container
+  - VlocityUILayout/ins-claims-involved-properties-container
+  - VlocityUILayout/ins-product-attributes-json-modal
+  - VlocityUILayout/ins-product-attributes-rules-modal
+  - VlocityUILayout/ins-product-model-container
+  - VlocityUILayout/ins-product-model-quote-container
+  - VlocityUILayout/ins-quote-line-card-modal
+  - VlocityUILayout/ins-product-taxes-config
+  - VlocityUILayout/ins-attributes-set-value-rules
+  - VlocityUILayout/ins-claims-injuries-admin-container
+  - VlocityUILayout/ins-claims-properties-admin-container
+  - VlocityUILayout/ins-enrollment-billing-and-contact
+  - VlocityUILayout/ins-enrollment-home-container
+  - VlocityUILayout/ins-enrollment-manage-accounts
+  - VlocityUILayout/ins-large-group-csv-upload
+  - VlocityUILayout/ins-large-group-quote-plans-container
+  - VlocityUILayout/ins-large-group-root-attributes-container
+  - VlocityUILayout/ins-policy-coverages
+  - VlocityUILayout/ins-quote-coverages
+  - VlocityUILayout/ins-quote-insured-items
+  - VlocityUILayout/ins-coverage-attr-modal
+  - VlocityUILayout/ins-product-taxes-modal
+  - VlocityUILayout/ins-coverages-attributes-config
+  - VlocityUITemplate/SearchResult
+  - VlocityUITemplate/VerifyResult
+  - VlocityUITemplate/ins-coverage-container
+  - VlocityUITemplate/ins-insured-items-container
+  - VlocityUITemplate/ins-product-attributes-variables
+  - VlocityUITemplate/ins-product-attributes-container
+  - VlocityUITemplate/ins-product-taxes-container
+  - VlocityUITemplate/ins-rating-fact-card
+  - VlocityUITemplate/aura-lwc-communication
+  - VlocityUITemplate/ins-attributes-set-value-rules-container
+  - VlocityUITemplate/ins-claims-injury-card
+  - VlocityUITemplate/ins-claims-property-card
+  - VlocityUITemplate/ins-coverage-runtime-row
+  - VlocityUITemplate/ins-coverage-runtime-row-disabled
+  - VlocityUITemplate/ins-enrollment-contact-and-billing
+  - VlocityUITemplate/ins-enrollment-home-card
+  - VlocityUITemplate/ins-enrollment-home-container
+  - VlocityUITemplate/ins-enrollment-manage-accounts-container
+  - VlocityUITemplate/ins-large-group-csv-upload
+  - VlocityUITemplate/ins-large-group-quote-plans-card-container
+  - VlocityUITemplate/ins-large-group-root-attributes-container
+  - VlocityUITemplate/campaign-add-member
+  - VlocityUITemplate/campaign-add-member-list
+  - VlocityUITemplate/campaign-column
+  - VlocityUITemplate/campaign-column-middle
+  - VlocityUITemplate/campaign-member-detail
+  - VlocityUITemplate/campaign-member-detail-blank
+  - VlocityUITemplate/campaign-member-filter
+  - VlocityUITemplate/campaign-member-log-actions
+  - VlocityUITemplate/campaign-member-manager
+  - VlocityUITemplate/campaign-member-story-card
+  - VlocityUITemplate/campaign-mixins
+  - VlocityUITemplate/campaign-results
+  - VlocityUITemplate/campaign-status
+  - VlocityUITemplate/campaign-variables
+  - VlocityUITemplate/ins-product-attributes-json-modal
+  - VlocityUITemplate/ins-product-attributes-rules-modal
+  - VlocityUITemplate/ins-product-model-container
+  - VlocityUITemplate/ins-product-model-insured-item
+  - VlocityUITemplate/ins-quote-line-card
+  - VlocityUITemplate/ins-quote-line-card-modal
+  - VlocityUITemplate/ins-quote-line-card-select-action
+  - VlocityUITemplate/ins-small-group-quote-line-card-select-action
+  - VlocityUITemplate/ins-product-taxes-config-container
+  - VlocityUITemplate/ins-product-attributes-row
+  - VlocityUITemplate/ins-large-group-quote-product-config
+  - VlocityUITemplate/ins-policy-revenue-schedule
+  - VlocityUITemplate/ins-claims-involved-injuries
+  - VlocityUITemplate/ins-claims-involved-properties
+  - VlocityUITemplate/ins-claims-involved-properties-card
+  - VlocityUITemplate/ins-coverage-dependent-opt-modal
+  - VlocityUITemplate/ins-coverage-quote-runtime-container
+  - VlocityUITemplate/ins-coverage-runtime-container
+  - VlocityUITemplate/ins-enrollment-home-page-header
+  - VlocityUITemplate/ins-enrollment-manage-accounts
+  - VlocityUITemplate/ins-enrollment-page-header-actions
+  - VlocityUITemplate/ins-insured-items-attr-container
+  - VlocityUITemplate/ins-large-group-csv-upload-modal
+  - VlocityUITemplate/ins-large-group-csv-upload-table
+  - VlocityUITemplate/ins-large-group-quote-groups-card-modal
+  - VlocityUITemplate/ins-large-group-quote-groups-config
+  - VlocityUITemplate/ins-product-taxes-row
+  - VlocityUITemplate/ins-product-rules-requirements
+  - VlocityUITemplate/campaign-base-grid
+  - VlocityUITemplate/ins-coverage-card
+  - VlocityUITemplate/ins-insured-item-card
+  - VlocityUITemplate/campaign-detail
+  - VlocityUITemplate/campaign-member-list
+  - VlocityUITemplate/campaign-member-stories
+  - VlocityUITemplate/card-active-slds-trackField
+  - VlocityUITemplate/card-canvas-zones-3x-slds-NotificationBanner
+  - VlocityUITemplate/interaction-action-canvas
+  - VlocityUITemplate/interaction-feed
+  - VlocityUITemplate/interaction-feed-canvas
+  - VlocityUITemplate/vlocity-interaction-acuity-sidebar-offer-card
+  - VlocityUITemplate/vlocity-interaction-console-sidebar-slds
+  - VlocityUITemplate/ins-product-taxes-config
+  - VlocityUITemplate/ins-product-methods-helper
+  - VlocityUITemplate/ins-product-rating-map-container
+  - VlocityUITemplate/ins-product-rules-container
+  - VlocityUITemplate/ins-insured-items-container-v2
+  - VlocityUITemplate/ins-product-attributes-config-container
+  - VlocityUITemplate/ins-product-rules-eligibility
+  - VlocityUITemplate/ins-product-attributes-config
+  - VlocityUITemplate/ins-product-tags-mixin
+  - VlocityUITemplate/ins-quote-coverages-add-modal
+  - VlocityUITemplate/ins-quote-line-card-container
+  - VlocityUITemplate/ins-quote-line-items-large-group
+  - VlocityUITemplate/ins-quote-line-items-small-group
+  - VlocityUITemplate/ins-required-documents-category
+  - VlocityUITemplate/ins-required-documents-community-category
+  - VlocityUITemplate/ins-required-documents-container
+  - VlocityUITemplate/ins-small-group-quote-plans-card-container
+  - VlocityUITemplate/ins-coverage-attr-modal
+  - VlocityUITemplate/ins-coverages-attributes-config
+  - VlocityUITemplate/ins-coverages-attributes-config-container
+  - VlocityUITemplate/ins-product-taxes-modal
+  - VlocityUITemplate/docgensample-object-document-creation-default
+  - VlocityUITemplate/docgensample-object-document-creation-docx-template
+  - VlocityUITemplate/docgensample-object-document-multi-generation-docx-sample
+  - VlocityUITemplate/docgensample-object-document-pdf-merge
+  - VlocityUITemplate/docgensample-object-document-selected-template-list
+  - VlocityUITemplate/docgensample-object-document-template-list
+  - VlocityWebTrackingConfiguration/null
+  - VlocityTrackingGroup/null
