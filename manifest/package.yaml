@@ -1,0 +1,6 @@
+projectPath: .
+expansionPath: ./vlocity/
+manifest:
+
+- OmniScript/SURA_FormularioPlacaSpanish_Spanish
+- IntegrationProcedure/Create_Quote

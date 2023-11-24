@@ -1,0 +1,1182 @@
+ [0m Vlocity Build v1.17.4  [0m
+ [36m Org >> [0momarm@sura.com.devm2  [0m
+ [36m Using SFDX >> [0momarm@sura.com.devm2  [0m
+ [36m Refreshing SFDX Session >> [0momarm@sura.com.devm2  [0m
+ [36m Retrieving VlocityDataPackKeys  [0m
+ [36m VlocityDataPackType >> [0mInterfaceImplementation  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__InterfaceImplementation__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mCalculationMatrix  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__CalculationMatrix__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mChargeMeasurement  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ChargeMeasurement__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mCatalog  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c, vlocity_ins__CatalogCode__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__Catalog__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mCpqConfigurationSetup  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__CpqConfigurationSetup__c  [0m
+ [36m Records >> [0m2  [0m
+ [36m VlocityDataPackType >> [0mContextScope  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ContextScope__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mItemImplementation  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ItemImplementation__c  [0m
+ [36m Records >> [0m5  [0m
+ [36m VlocityDataPackType >> [0mEntityFilter  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__EntityFilter__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mCustomObjectMap  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__CustomObjectMap__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mManualQueue  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ManualQueue__c  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mIntegrationRetryPolicy  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__IntegrationRetryPolicy__c  [0m
+ [36m Records >> [0m2  [0m
+ [36m VlocityDataPackType >> [0mExpressionSet  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM CalculationProcedure  [0m
+ [36m Records >> [0m16  [0m
+ [36m VlocityDataPackType >> [0mAttributeCategory  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__Code__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__AttributeCategory__c  [0m
+ [36m Records >> [0m11  [0m
+ [36m VlocityDataPackType >> [0mGeneralSettings  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__GeneralSettings__c  [0m
+ [36m Records >> [0m6  [0m
+ [36m VlocityDataPackType >> [0mContractType  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ContractType__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mContextAction  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ContextAction__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mObjectClass  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ObjectClass__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mContentVersion  [0m
+ [36m Query >> [0mSelect Id, Title, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM ContentVersion WHERE vlocity_ins__GlobalKey__c != null  [0m
+ [36m Records >> [0m4  [0m
+ [36m VlocityDataPackType >> [0mDocumentTemplate  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__DocumentTemplate__c WHERE vlocity_ins__Status__c = 'Active'  [0m
+ [36m Records >> [0m2  [0m
+ [36m VlocityDataPackType >> [0mDocumentClause  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__DocumentClause__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mAttributeAssignmentRule  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__AttributeAssignmentRule__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mCustomFieldMap  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__CustomFieldMap__c  [0m
+ [36m Records >> [0m52  [0m
+ [36m VlocityDataPackType >> [0mIntegrationProcedure  [0m
+ [36m Query >> [0mSelect Id, vlocity_ins__Type__c, vlocity_ins__SubType__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OmniScript__c WHERE vlocity_ins__IsActive__c = true AND vlocity_ins__IsProcedure__c = true  [0m
+ [36m Records >> [0m101  [0m
+ [36m VlocityDataPackType >> [0mObjectContextRule  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ObjectRuleAssignment__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mObjectLayout  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ObjectLayout__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mProject  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__Project__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mOrchestrationPlanDefinition  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OrchestrationPlanDefinition__c  [0m
+ [36m Records >> [0m2  [0m
+ [36m VlocityDataPackType >> [0mPricebook2  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM Pricebook2  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mOfferMigrationPlan  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__Code__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OfferMigrationPlan__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mOrchestrationDependencyDefinition  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OrchestrationDependencyDefinition__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mPromotion  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__Promotion__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mOrchestrationItemDefinition  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__OrchestrationPlanDefinitionId__r.Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OrchestrationItemDefinition__c  [0m
+ [36m Records >> [0m4  [0m
+ [36m VlocityDataPackType >> [0mPricingPlan  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__PricingPlan__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mPricingVariable  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__Code__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__PricingVariable__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mOrchestrationQueueAssignmentRule  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OrchestrationQueueAssignmentRule__c  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mQueryBuilder  [0m
+ [36m Query >> [0mSelect Id,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__QueryBuilder__c  [0m
+ [36m VlocityDataPackType >> [0mPriceList  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__Code__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__PriceList__c  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mRateBand  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__RateBand__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mSpecTemplateMapping  [0m
+ [36m Query >> [0mSelect Id, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__SpecTemplateMapping__c  [0m
+ [36m VlocityDataPackType >> [0mRule  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__Rule__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mStoryObjectConfiguration  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__StoryObjectConfiguration__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mOmniScript  [0m
+ [36m Query >> [0mSelect Id, vlocity_ins__Type__c, vlocity_ins__SubType__c, vlocity_ins__Language__c, vlocity_ins__IsLwcEnabled__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__OmniScript__c WHERE vlocity_ins__IsActive__c = true AND vlocity_ins__IsProcedure__c = false  [0m
+ [36m Records >> [0m27  [0m
+ [36m VlocityDataPackType >> [0mRelationshipGraph  [0m
+ [36m Query >> [0mSelect Id,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__RelationshipGraph__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mProduct2  [0m
+ [36m Query >> [0mSelect Id, Name, ProductCode, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM Product2  [0m
+ [36m Records >> [0m23  [0m
+ [36m VlocityDataPackType >> [0mString  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__String__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mSystem  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__System__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mThorOrchestrationQueue  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ThorOrchestrationQueue__c  [0m
+ [36m Records >> [0m3  [0m
+ [36m VlocityDataPackType >> [0mTimePlan  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__TimePlan__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocityAction  [0m
+ [36m Query >> [0mSELECT Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityAction__c WHERE vlocity_ins__IsActive__c = true  [0m
+ [36m Records >> [0m12  [0m
+ [36m VlocityDataPackType >> [0mVlocityDataStore  [0m
+ [36m Query >> [0mSELECT Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__Datastore__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mUIFacet  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__UIFacet__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mTimePolicy  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__TimePolicy__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mUISection  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__UISection__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocityFunction  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityFunction__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocityAttachment  [0m
+ [36m Query >> [0mSELECT Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityAttachment__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocityPicklist  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__Picklist__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocityScheduledJob  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityScheduledJob__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocitySearchWidgetSetup  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocitySearchWidgetSetup__c  [0m
+ [36m Records >> [0m2  [0m
+ [36m VlocityDataPackType >> [0mVlocityStateModel  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityStateModel__c  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mVlocityWebTrackingConfiguration  [0m
+ [36m Query >> [0mSelect Id, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityWebTrackingConfiguration__c  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mVlocityTrackingGroup  [0m
+ [36m Query >> [0mSelect Id, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityTrackingGroup__c  [0m
+ [36m Records >> [0m1  [0m
+ [36m VlocityDataPackType >> [0mVqMachine  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VqMachine__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVqResource  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VqResource__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mVlocityUILayout  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityUILayout__c WHERE vlocity_ins__Active__c = true  [0m
+ [36m Records >> [0m85  [0m
+ [36m VlocityDataPackType >> [0mVlocityUITemplate  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityUITemplate__c WHERE vlocity_ins__Active__c = true  [0m
+ [36m Records >> [0m103  [0m
+ [36m VlocityDataPackType >> [0mVlocityCard  [0m
+ [36m Query >> [0mSELECT Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__VlocityCard__c WHERE vlocity_ins__Active__c = true  [0m
+ [36m Records >> [0m183  [0m
+ [36m VlocityDataPackType >> [0mCalculationProcedure  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__CalculationProcedure__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mContextDimension  [0m
+ [36m Query >> [0mSelect Id, Name, vlocity_ins__GlobalKey__c,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__ContextDimension__c  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mDocumentTemplates  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM DocumentTemplate WHERE Status = 'Active'  [0m
+ [36m Records >> [0m0  [0m
+ [36m VlocityDataPackType >> [0mExpressionSetVersion  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM CalculationProcedureVersion  [0m
+ [36m Records >> [0m18  [0m
+ [36m VlocityDataPackType >> [0mDecisionMatrix  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM CalculationMatrix  [0m
+ [36m Records >> [0m25  [0m
+ [36m VlocityDataPackType >> [0mDecisionMatrixVersion  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM CalculationMatrixVersion  [0m
+ [36m Records >> [0m30  [0m
+ [36m VlocityDataPackType >> [0mDataRaptor  [0m
+ [36m Query >> [0mSelect Id, Name,CreatedBy.Name, CreatedDate, LastModifiedBy.Name, LastModifiedDate FROM vlocity_ins__DRBundle__c WHERE vlocity_ins__Type__c != 'Migration'  [0m
+ [36m Records >> [0m232  [0m
+ [0m - AttributeCategory/Planes # Planes  [0m
+ [0m - AttributeCategory/Tomador # Tomador  [0m
+ [0m - AttributeCategory/autoVehicle # Vehículo de Reclamo (autoVehicle)  [0m
+ [0m - AttributeCategory/claimItem # Item de Reclamo (claimItem)  [0m
+ [0m - AttributeCategory/claimParty # Parte de Reclamo (claimParty)  [0m
+ [0m - AttributeCategory/Item # Insured Item  [0m
+ [0m - AttributeCategory/Party # Insured Party  [0m
+ [0m - AttributeCategory/Asistencias # Asistencias  [0m
+ [0m - AttributeCategory/Beneficiario # Beneficiario  [0m
+ [0m - AttributeCategory/Coberturas # Coberturas  [0m
+ [0m - AttributeCategory/autoWell # Bien de Reclamo (autoWell)  [0m
+ [0m - ContentVersion/aa533cd0-2985-b644-c03a-7b69bfc627e3 # CLM MVP SURA.docx (aa533cd0-2985-b644-c03a-7b69bfc627e3)  [0m
+ [0m - ContentVersion/e17e8ef9-ac5f-9147-0744-d3d56e19c3bb # CLM-MVP-SURA-DOC (1) (1).docx (e17e8ef9-ac5f-9147-0744-d3d56e19c3bb)  [0m
+ [0m - ContentVersion/28f6d57c-165b-5105-454b-fe5dd3bf73d0 # SURA SLIPT (1) (1) (2).docx (28f6d57c-165b-5105-454b-fe5dd3bf73d0)  [0m
+ [0m - ContentVersion/7b8583c9-2ebf-8e0d-3641-51017208d1c4 # SURA SLIPT (1) (1) (2).docx (7b8583c9-2ebf-8e0d-3641-51017208d1c4)  [0m
+ [0m - CpqConfigurationSetup/CacheEnabled # CacheEnabled  [0m
+ [0m - CpqConfigurationSetup/RetainProductAttribJSON # RetainProductAttribJSON  [0m
+ [0m - CustomFieldMap/FSC_Policy_ProdCode__Quote_ProdCode # FSC_Policy_ProdCode__Quote_ProdCode  [0m
+ [0m - CustomFieldMap/FSC_Policy_Premium_Quote_Premium # FSC_Policy_Premium_Quote_Premium  [0m
+ [0m - CustomFieldMap/FSC_Policy_Producer_Quote_PrimaryProd # FSC_Policy_Producer_Quote_PrimaryProd  [0m
+ [0m - CustomFieldMap/FSC_Policy_Term_Quote_Term # FSC_Policy_Term_Quote_Term  [0m
+ [0m - CustomFieldMap/FSC_Quote_EffDate_Policy_EffDate # FSC_Quote_EffDate_Policy_EffDate  [0m
+ [0m - CustomFieldMap/FSC_Quote_EndDate_Policy_ExpDate # FSC_Quote_EndDate_Policy_ExpDate  [0m
+ [0m - CustomFieldMap/FSC_Quote_Name_Policy_Name # FSC_Quote_Name_Policy_Name  [0m
+ [0m - CustomFieldMap/ContractQuote_Field2 # ContractQuote_Field2  [0m
+ [0m - CustomFieldMap/Asset_EffDate_Quote_EffDate # Asset_EffDate_Quote_EffDate  [0m
+ [0m - CustomFieldMap/ContractQuote_Field1 # ContractQuote_Field1  [0m
+ [0m - CustomFieldMap/CensusMemberContact_Field6 # CensusMemberContact_Field6  [0m
+ [0m - CustomFieldMap/ContractQuote_Field3 # ContractQuote_Field3  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_Gndr # InsuredCensusMember_CensusMember_Gndr  [0m
+ [0m - CustomFieldMap/ContractQuote_Field4 # ContractQuote_Field4  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_Bdate # InsuredCensusMember_CensusMember_Bdate  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_FName # InsuredCensusMember_CensusMember_FName  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_IsPri # InsuredCensusMember_CensusMember_IsPri  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_LName # InsuredCensusMember_CensusMember_LName  [0m
+ [0m - CustomFieldMap/Asset_ExpDate_Quote_EndDate # Asset_ExpDate_Quote_EndDate  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_MemId # InsuredCensusMember_CensusMember_MemId  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_NoDep # InsuredCensusMember_CensusMember_NoDep  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_Name # InsuredCensusMember_CensusMember_Name  [0m
+ [0m - CustomFieldMap/InsuredGroupCensus_Census_EndDate # InsuredGroupCensus_Census_EndDate  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_PriId # InsuredCensusMember_CensusMember_PriId  [0m
+ [0m - CustomFieldMap/InsuredCensusMember_CensusMember_Type # InsuredCensusMember_CensusMember_Type  [0m
+ [0m - CustomFieldMap/InsuredGroupCensus_Census_EffDate # InsuredGroupCensus_Census_EffDate  [0m
+ [0m - CustomFieldMap/InsuredGroupCensus_Census_Name # InsuredGroupCensus_Census_Name  [0m
+ [0m - CustomFieldMap/Asset_Name_Quote_Name # Asset_Name_Quote_Name  [0m
+ [0m - CustomFieldMap/InsuredGroupCensus_Census_Source # InsuredGroupCensus_Census_Source  [0m
+ [0m - CustomFieldMap/ProductQuoteLine_Field1 # ProductQuoteLine_Field1  [0m
+ [0m - CustomFieldMap/ProductQuoteLine_Field2 # ProductQuoteLine_Field2  [0m
+ [0m - CustomFieldMap/ProductQuoteLine_Field3 # ProductQuoteLine_Field3  [0m
+ [0m - CustomFieldMap/Quote_EffDate_Asset_EffDate # Quote_EffDate_Asset_EffDate  [0m
+ [0m - CustomFieldMap/Quote_EndDate_Asset_ExpDate # Quote_EndDate_Asset_ExpDate  [0m
+ [0m - CustomFieldMap/Quote_Name_Asset_Name # Quote_Name_Asset_Name  [0m
+ [0m - CustomFieldMap/Quote_Term_Asset_Term # Quote_Term_Asset_Term  [0m
+ [0m - CustomFieldMap/Quote_Premium_Asset_Premium # Quote_Premium_Asset_Premium  [0m
+ [0m - CustomFieldMap/CensusMemberContact_Field1 # CensusMemberContact_Field1  [0m
+ [0m - CustomFieldMap/Asset_Premium_Quote_Premium # Asset_Premium_Quote_Premium  [0m
+ [0m - CustomFieldMap/Asset_Term_Quote_Term # Asset_Term_Quote_Term  [0m
+ [0m - CustomFieldMap/CensusMemberContact_Field2 # CensusMemberContact_Field2  [0m
+ [0m - CustomFieldMap/CensusMemberContact_Field3 # CensusMemberContact_Field3  [0m
+ [0m - CustomFieldMap/CensusMemberContact_Field4 # CensusMemberContact_Field4  [0m
+ [0m - CustomFieldMap/CensusMemberContact_Field5 # CensusMemberContact_Field5  [0m
+ [0m - CustomFieldMap/FSC_Policy_EffDate_Quote_EffDate # FSC_Policy_EffDate_Quote_EffDate  [0m
+ [0m - CustomFieldMap/FSC_Quote_Premium_Policy_Premium # FSC_Quote_Premium_Policy_Premium  [0m
+ [0m - CustomFieldMap/FSC_Quote_PrimaryProd_Policy_Producer # FSC_Quote_PrimaryProd_Policy_Producer  [0m
+ [0m - CustomFieldMap/FSC_Quote_ProdCode_Policy_ProdCode # FSC_Quote_ProdCode_Policy_ProdCode  [0m
+ [0m - CustomFieldMap/FSC_Quote_SPFreq_Policy_PFreq # FSC_Quote_SPFreq_Policy_PFreq  [0m
+ [0m - CustomFieldMap/FSC_Quote_Term_Policy_Term # FSC_Quote_Term_Policy_Term  [0m
+ [0m - CustomFieldMap/FSC_Policy_ExpDate_Quote_EndDate # FSC_Policy_ExpDate_Quote_EndDate  [0m
+ [0m - CustomFieldMap/FSC_Policy_Name_Quote_Name # FSC_Policy_Name_Quote_Name  [0m
+ [0m - DecisionMatrix/TIncrementoPorSiniestros # TIncrementoPorSiniestros  [0m
+ [0m - DecisionMatrix/TablaDeducibles # TablaDeducibles  [0m
+ [0m - DecisionMatrix/HomologacionMarca # HomologacionMarca  [0m
+ [0m - DecisionMatrix/Modificadores # Modificadores  [0m
+ [0m - DecisionMatrix/PAFactorDispositivos # PAFactorDispositivos  [0m
+ [0m - DecisionMatrix/PAFactorMarcaLinea # PAFactorMarcaLinea  [0m
+ [0m - DecisionMatrix/PAFactorProducto # PAFactorProducto  [0m
+ [0m - DecisionMatrix/PARecargoPorCodigoDANE # PARecargoPorCodigoDANE  [0m
+ [0m - DecisionMatrix/VariablesCodigo # VariablesCodigo  [0m
+ [0m - DecisionMatrix/VigenciasSinSiniestro # VigenciasSinSiniestro  [0m
+ [0m - DecisionMatrix/ProduccionIgualACobro # ProduccionIgualACobro  [0m
+ [0m - DecisionMatrix/AsegurableVehiculo # AsegurableVehiculo  [0m
+ [0m - DecisionMatrix/Bonificaciones # Bonificaciones  [0m
+ [0m - DecisionMatrix/CExpert_Bonificacion_NoVigente # CExpert_Bonificacion_NoVigente  [0m
+ [0m - DecisionMatrix/CExpert_Bonificacion_Vigente # CExpert_Bonificacion_Vigente  [0m
+ [0m - DecisionMatrix/CexpertDescuentoSiniestros_V1 # CexpertDescuentoSiniestros_V1  [0m
+ [0m - DecisionMatrix/ExtraprimaRC # ExtraprimaRC  [0m
+ [0m - DecisionMatrix/FactorPorMarca # FactorPorMarca  [0m
+ [0m - DecisionMatrix/FactorDeGastos # FactorDeGastos  [0m
+ [0m - DecisionMatrix/PruebaNegativo # PruebaNegativo  [0m
+ [0m - DecisionMatrix/HomologacionVariables # HomologacionVariables  [0m
+ [0m - DecisionMatrix/RelatividadMotos # RelatividadMotos  [0m
+ [0m - DecisionMatrix/TFactorBlindado # TFactorBlindado  [0m
+ [0m - DecisionMatrix/TFactorVerde # TFactorVerde  [0m
+ [0m - DecisionMatrix/ZonaCirculacion # ZonaCirculacion  [0m
+ [0m - DecisionMatrixVersion/TIncrementoPorSiniestros V1 # TIncrementoPorSiniestros V1  [0m
+ [0m - DecisionMatrixVersion/HomologacionVariable # HomologacionVariable  [0m
+ [0m - DecisionMatrixVersion/HomologacionMarca_V1 # HomologacionMarca_V1  [0m
+ [0m - DecisionMatrixVersion/Modificadores V1 # Modificadores V1  [0m
+ [0m - DecisionMatrixVersion/TablaDeducibles V1 # TablaDeducibles V1  [0m
+ [0m - DecisionMatrixVersion/Modificadores V2 # Modificadores V2  [0m
+ [0m - DecisionMatrixVersion/PAFactorDispositivos V1 # PAFactorDispositivos V1  [0m
+ [0m - DecisionMatrixVersion/PAFactorMarcaLinea V1 # PAFactorMarcaLinea V1  [0m
+ [0m - DecisionMatrixVersion/PAFactorProducto V1 # PAFactorProducto V1  [0m
+ [0m - DecisionMatrixVersion/PARecargoPorCodigoDANE V1 # PARecargoPorCodigoDANE V1  [0m
+ [0m - DecisionMatrixVersion/VariablesCodigo V1 # VariablesCodigo V1  [0m
+ [0m - DecisionMatrixVersion/VigenciasSinSiniestro V1 # VigenciasSinSiniestro V1  [0m
+ [0m - DecisionMatrixVersion/AsegurableVehiculo V1 # AsegurableVehiculo V1  [0m
+ [0m - DecisionMatrixVersion/ProduccionIgualACobro V1 # ProduccionIgualACobro V1  [0m
+ [0m - DecisionMatrixVersion/Bonificaciones V1 # Bonificaciones V1  [0m
+ [0m - DecisionMatrixVersion/CExpert_Bonificacion_Vigente V1 # CExpert_Bonificacion_Vigente V1  [0m
+ [0m - DecisionMatrixVersion/CexpertDescuentoSiniestros_V1 V1 # CexpertDescuentoSiniestros_V1 V1  [0m
+ [0m - DecisionMatrixVersion/ExtraprimaRC V1 # ExtraprimaRC V1  [0m
+ [0m - DecisionMatrixVersion/FactorPorMarca V1 # FactorPorMarca V1  [0m
+ [0m - DecisionMatrixVersion/FactorDeGastos # FactorDeGastos  [0m
+ [0m - DecisionMatrixVersion/PruebaNegativo V1 # PruebaNegativo V1  [0m
+ [0m - DecisionMatrixVersion/RelatividadMotos # RelatividadMotos  [0m
+ [0m - DecisionMatrixVersion/RelatividadMotos # RelatividadMotos  [0m
+ [0m - DecisionMatrixVersion/TFactorBlindado V1 # TFactorBlindado V1  [0m
+ [0m - DecisionMatrixVersion/TFactorVerde V1 # TFactorVerde V1  [0m
+ [0m - DecisionMatrixVersion/RelatividadMotos # RelatividadMotos  [0m
+ [0m - DecisionMatrixVersion/PAFactorMarcaLinea V2 # PAFactorMarcaLinea V2  [0m
+ [0m - DecisionMatrixVersion/VigenciasSinSiniestro V2 # VigenciasSinSiniestro V2  [0m
+ [0m - DecisionMatrixVersion/TIncrementoPorSiniestros V2 # TIncrementoPorSiniestros V2  [0m
+ [0m - DecisionMatrixVersion/CExpert_Bonificacion_NoVigente # CExpert_Bonificacion_NoVigente  [0m
+ [0m - DataRaptor/CreateInteraction # CreateInteraction  [0m
+ [0m - DataRaptor/CreateInteractionContact # CreateInteractionContact  [0m
+ [0m - DataRaptor/CreateInteractionTopics # CreateInteractionTopics  [0m
+ [0m - DataRaptor/CreateLineItems # CreateLineItems  [0m
+ [0m - DataRaptor/CreateNewErrorLog # CreateNewErrorLog  [0m
+ [0m - DataRaptor/InsReadAccountPolicies # InsReadAccountPolicies  [0m
+ [0m - DataRaptor/InsReadAccountPolicyClaims # InsReadAccountPolicyClaims  [0m
+ [0m - DataRaptor/LOG_RegistroDeBitacoraDeIntegraciones # LOG_RegistroDeBitacoraDeIntegraciones  [0m
+ [0m - DataRaptor/SURAEnmascararCadenas # SURAEnmascararCadenas  [0m
+ [0m - DataRaptor/SURAGuardarSolicitanteCotizacionEnPausa # SURAGuardarSolicitanteCotizacionEnPausa  [0m
+ [0m - DataRaptor/SURATransformarResultadoCexpertMatrix # SURATransformarResultadoCexpertMatrix  [0m
+ [0m - DataRaptor/ObtenerProducer # ObtenerProducer  [0m
+ [0m - DataRaptor/ObtenerTemplateDeCotizacion # ObtenerTemplateDeCotizacion  [0m
+ [0m - DataRaptor/PAGOS_ObtenerDatosPagadorByPolicyId # PAGOS_ObtenerDatosPagadorByPolicyId  [0m
+ [0m - DataRaptor/PAGOS_ObtenerDatosProductoByPolicyId # PAGOS_ObtenerDatosProductoByPolicyId  [0m
+ [0m - DataRaptor/CreacionDeDocumentoIdent # CreacionDeDocumentoIdent  [0m
+ [0m - DataRaptor/CreacionDeOportunidad # CreacionDeOportunidad  [0m
+ [0m - DataRaptor/CrearProducer # CrearProducer  [0m
+ [0m - DataRaptor/CreateContactInteractionTopic # CreateContactInteractionTopic  [0m
+ [0m - DataRaptor/CreateContractVersionLines # CreateContractVersionLines  [0m
+ [0m - DataRaptor/SURADataRaptorGuardarReclamanteIdentity # SURADataRaptorGuardarReclamanteIdentity  [0m
+ [0m - DataRaptor/SURAautoPostInjuredPersonContactClaimInjuredPersonIPRelated # SURAautoPostInjuredPersonContactClaimInjuredPersonIPRelated  [0m
+ [0m - DataRaptor/InsExtractAccountDetails # InsExtractAccountDetails  [0m
+ [0m - DataRaptor/InsGetAccountDetails # InsGetAccountDetails  [0m
+ [0m - DataRaptor/InsGetAccountInsurancePolicyList # InsGetAccountInsurancePolicyList  [0m
+ [0m - DataRaptor/InsGetAccountPolicyList # InsGetAccountPolicyList  [0m
+ [0m - DataRaptor/InsGetAccountQuoteList # InsGetAccountQuoteList  [0m
+ [0m - DataRaptor/SURAautoTrnInjPrsnUpdtClaimInjPersonIP # SURAautoTrnInjPrsnUpdtClaimInjPersonIP  [0m
+ [0m - DataRaptor/PAGOS_ObtenerDatosCotizacionByQuoteId # PAGOS_ObtenerDatosCotizacionByQuoteId  [0m
+ [0m - DataRaptor/SURATransformDataForAseguradoJSON # SURATransformDataForAseguradoJSON  [0m
+ [0m - DataRaptor/SuraCrearLeadProceso # SuraCrearLeadProceso  [0m
+ [0m - DataRaptor/TransformRatingInputs # TransformRatingInputs  [0m
+ [0m - DataRaptor/TransformTest # TransformTest  [0m
+ [0m - DataRaptor/TransformarDataParaGuardarLogTarifa # TransformarDataParaGuardarLogTarifa  [0m
+ [0m - DataRaptor/TransformarNumeroDocumentoAsegurado # TransformarNumeroDocumentoAsegurado  [0m
+ [0m - DataRaptor/TransformarObjetoSiniestro # TransformarObjetoSiniestro  [0m
+ [0m - DataRaptor/InsGetAssetDetails # InsGetAssetDetails  [0m
+ [0m - DataRaptor/InsGetInsurancePolicyDetails # InsGetInsurancePolicyDetails  [0m
+ [0m - DataRaptor/InsGetPolicyClaimList # InsGetPolicyClaimList  [0m
+ [0m - DataRaptor/InsGetPolicyDetails # InsGetPolicyDetails  [0m
+ [0m - DataRaptor/InsGetPolicyTransactionDetails # InsGetPolicyTransactionDetails  [0m
+ [0m - DataRaptor/SURAAccountSearchTypeAhead # SURAAccountSearchTypeAhead  [0m
+ [0m - DataRaptor/SURAinsReadAccountByAccountId # SURAinsReadAccountByAccountId  [0m
+ [0m - DataRaptor/SURAInputsForRatingProducts # SURAInputsForRatingProducts  [0m
+ [0m - DataRaptor/SURATranformReclamanteClaim # SURATranformReclamanteClaim  [0m
+ [0m - DataRaptor/SURAExtractDocumentId # SURAExtractDocumentId  [0m
+ [0m - DataRaptor/GenericDocuSignGetDocuments # GenericDocuSignGetDocuments  [0m
+ [0m - DataRaptor/GenericDocuSignTransformDocuments # GenericDocuSignTransformDocuments  [0m
+ [0m - DataRaptor/GetAttributesByProduct # GetAttributesByProduct  [0m
+ [0m - DataRaptor/GetContract # GetContract  [0m
+ [0m - DataRaptor/GetDocumentTemplates # GetDocumentTemplates  [0m
+ [0m - DataRaptor/SURACrearLeadPorFallaGenerarUrlPago # SURACrearLeadPorFallaGenerarUrlPago  [0m
+ [0m - DataRaptor/SURAinsReadContactByContactId # SURAinsReadContactByContactId  [0m
+ [0m - DataRaptor/SURA_Coberturas # SURA_Coberturas  [0m
+ [0m - DataRaptor/SURAValorDevolucionPost # SURAValorDevolucionPost  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosCotizacionByQuoteId_Clone # SARLAFT_ObtenerDatosCotizacionByQuoteId_Clone  [0m
+ [0m - DataRaptor/CrearNumeroPrepoliza # CrearNumeroPrepoliza  [0m
+ [0m - DataRaptor/SURATransformarResultadoMatrix # SURATransformarResultadoMatrix  [0m
+ [0m - DataRaptor/SURAgetAnotherQuotesDetails # SURAgetAnotherQuotesDetails  [0m
+ [0m - DataRaptor/SURAgetCiudadesByName # SURAgetCiudadesByName  [0m
+ [0m - DataRaptor/SURAgetPaisByName # SURAgetPaisByName  [0m
+ [0m - DataRaptor/MapInsuredItems # MapInsuredItems  [0m
+ [0m - DataRaptor/SURATransformValuesPolitics # SURATransformValuesPolitics  [0m
+ [0m - DataRaptor/ExtractGroupQuote # ExtractGroupQuote  [0m
+ [0m - DataRaptor/FSCTransToCreatePolicyCreateUpdatePolicyIP # FSCTransToCreatePolicyCreateUpdatePolicyIP  [0m
+ [0m - DataRaptor/FormPlacaLlenadoAut # FormPlacaLlenadoAut  [0m
+ [0m - DataRaptor/GET_DetallesDocumentoCotizacion # GET_DetallesDocumentoCotizacion  [0m
+ [0m - DataRaptor/GenericDocuSignGetContacts # GenericDocuSignGetContacts  [0m
+ [0m - DataRaptor/SURAautoPost3PartyWellClaim3PartyIP # SURAautoPost3PartyWellClaim3PartyIP  [0m
+ [0m - DataRaptor/SURAExtraerSufijoParaNumeroPrepoliza # SURAExtraerSufijoParaNumeroPrepoliza  [0m
+ [0m - DataRaptor/ConvertURLToBase64 # ConvertURLToBase64  [0m
+ [0m - DataRaptor/SURATransformDataForItemJSON # SURATransformDataForItemJSON  [0m
+ [0m - DataRaptor/ConvertirJSONVehiculos # ConvertirJSONVehiculos  [0m
+ [0m - DataRaptor/CreacionDeCotizacionesALT # CreacionDeCotizacionesALT  [0m
+ [0m - DataRaptor/CCM_ObtenerDatosConfiguracion # CCM_ObtenerDatosConfiguracion  [0m
+ [0m - DataRaptor/CCM_ObtenerDatosPolizaByPolicyId # CCM_ObtenerDatosPolizaByPolicyId  [0m
+ [0m - DataRaptor/CCM_ObtenerDatosResponsableDePagoByPolicyId # CCM_ObtenerDatosResponsableDePagoByPolicyId  [0m
+ [0m - DataRaptor/SURAValidateCiudadesByName # SURAValidateCiudadesByName  [0m
+ [0m - DataRaptor/GuardadoAdicionalCotizacion # GuardadoAdicionalCotizacion  [0m
+ [0m - DataRaptor/GuardarLogTarifa # GuardarLogTarifa  [0m
+ [0m - DataRaptor/GuestUserDocGenSampleExtractDocumentTemplatesLWC # GuestUserDocGenSampleExtractDocumentTemplatesLWC  [0m
+ [0m - DataRaptor/SURAFscReadPolicyDetails # SURAFscReadPolicyDetails  [0m
+ [0m - DataRaptor/InsAccountTransactions # InsAccountTransactions  [0m
+ [0m - DataRaptor/InsExtractAccountBillingDetails # InsExtractAccountBillingDetails  [0m
+ [0m - DataRaptor/DetallesInicialesDeOportunidad # DetallesInicialesDeOportunidad  [0m
+ [0m - DataRaptor/DocGenSampleExtractDocumentTemplateByIdLWC # DocGenSampleExtractDocumentTemplateByIdLWC  [0m
+ [0m - DataRaptor/DocGenSampleExtractDocumentTemplatesLWC # DocGenSampleExtractDocumentTemplatesLWC  [0m
+ [0m - DataRaptor/CreateOwnerPersonAccount # CreateOwnerPersonAccount  [0m
+ [0m - DataRaptor/DetallesDeCuenta # DetallesDeCuenta  [0m
+ [0m - DataRaptor/SURAGetLeadDetails # SURAGetLeadDetails  [0m
+ [0m - DataRaptor/SURAGetSwitchURL # SURAGetSwitchURL  [0m
+ [0m - DataRaptor/SURA_ItemAsegurable # SURA_ItemAsegurable  [0m
+ [0m - DataRaptor/GetDocumentTemplatesForType # GetDocumentTemplatesForType  [0m
+ [0m - DataRaptor/GetMultiDocumentTemplatesForType # GetMultiDocumentTemplatesForType  [0m
+ [0m - DataRaptor/GetProducts # GetProducts  [0m
+ [0m - DataRaptor/GetUserInformation # GetUserInformation  [0m
+ [0m - DataRaptor/GuardaInputsTarificacion # GuardaInputsTarificacion  [0m
+ [0m - DataRaptor/InsGetPolicyTransactionList # InsGetPolicyTransactionList  [0m
+ [0m - DataRaptor/InsGetQuoteByProducer # InsGetQuoteByProducer  [0m
+ [0m - DataRaptor/InsGetQuoteDetails # InsGetQuoteDetails  [0m
+ [0m - DataRaptor/InsReadAccountContactDetails # InsReadAccountContactDetails  [0m
+ [0m - DataRaptor/InsReadAccountDetails # InsReadAccountDetails  [0m
+ [0m - DataRaptor/TransformInputsQuoteServiceWithOutOpp # TransformInputsQuoteServiceWithOutOpp  [0m
+ [0m - DataRaptor/SURASearchQuoetRecordType # SURASearchQuoetRecordType  [0m
+ [0m - DataRaptor/SURATransformarModificadoresJSON # SURATransformarModificadoresJSON  [0m
+ [0m - DataRaptor/SURAautoTrn3PartyWellUpdtClaim3PartyWellIP # SURAautoTrn3PartyWellUpdtClaim3PartyWellIP  [0m
+ [0m - DataRaptor/TestDateUnixTime # TestDateUnixTime  [0m
+ [0m - DataRaptor/TRNS_DetallesDocumentoCotizacion # TRNS_DetallesDocumentoCotizacion  [0m
+ [0m - DataRaptor/TransformDataRaptor # TransformDataRaptor  [0m
+ [0m - DataRaptor/TransformInputsQuoteService # TransformInputsQuoteService  [0m
+ [0m - DataRaptor/TransformNewInteraction # TransformNewInteraction  [0m
+ [0m - DataRaptor/TransformPolicyId # TransformPolicyId  [0m
+ [0m - DataRaptor/SURAExtractProductFromQuoteId # SURAExtractProductFromQuoteId  [0m
+ [0m - DataRaptor/PAGOS_ObtenerMetodosPagoActivos # PAGOS_ObtenerMetodosPagoActivos  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosAseguradoByPolicyId # SARLAFT_ObtenerDatosAseguradoByPolicyId  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosPagadorByPolicyId # SARLAFT_ObtenerDatosPagadorByPolicyId  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosPolizaByPolicyId # SARLAFT_ObtenerDatosPolizaByPolicyId  [0m
+ [0m - DataRaptor/SURA_ObtenerMontoMaximoDePrima # SURA_ObtenerMontoMaximoDePrima  [0m
+ [0m - DataRaptor/SURASalarioMinimoLegalVigente # SURASalarioMinimoLegalVigente  [0m
+ [0m - DataRaptor/SURATransformarDataParaPoliticaSuscripcion # SURATransformarDataParaPoliticaSuscripcion  [0m
+ [0m - DataRaptor/SURATransformarJsonParaValidarSiniestro # SURATransformarJsonParaValidarSiniestro  [0m
+ [0m - DataRaptor/SURATransformarJsonParaValidarSiniestroAsegurado # SURATransformarJsonParaValidarSiniestroAsegurado  [0m
+ [0m - DataRaptor/SURATransformarJsonParaValidarSiniestroVehiculo # SURATransformarJsonParaValidarSiniestroVehiculo  [0m
+ [0m - DataRaptor/SURAautoPost3PartyDriverClaim3PartyIPRelated # SURAautoPost3PartyDriverClaim3PartyIPRelated  [0m
+ [0m - DataRaptor/SURAExtraerCoberturaClaimApertura # SURAExtraerCoberturaClaimApertura  [0m
+ [0m - DataRaptor/AccountSearch # AccountSearch  [0m
+ [0m - DataRaptor/BuscarDocumento # BuscarDocumento  [0m
+ [0m - DataRaptor/BuscarSwitchLogTarifa # BuscarSwitchLogTarifa  [0m
+ [0m - DataRaptor/CCM_ObtenerDatosAseguradoByPolicyId # CCM_ObtenerDatosAseguradoByPolicyId  [0m
+ [0m - DataRaptor/DocGenSampleGetDocumentTemplatesForType # DocGenSampleGetDocumentTemplatesForType  [0m
+ [0m - DataRaptor/ExtractAccountFromContact # ExtractAccountFromContact  [0m
+ [0m - DataRaptor/ExtractAssetBasedOnAccount # ExtractAssetBasedOnAccount  [0m
+ [0m - DataRaptor/ExtractContractRecordTypes # ExtractContractRecordTypes  [0m
+ [0m - DataRaptor/ExtractDocumentTemplateByTemplateType # ExtractDocumentTemplateByTemplateType  [0m
+ [0m - DataRaptor/SearchAccountByDocument # SearchAccountByDocument  [0m
+ [0m - DataRaptor/SearchAccountByOpportunityId # SearchAccountByOpportunityId  [0m
+ [0m - DataRaptor/SearchExternalHarcodeProducer # SearchExternalHarcodeProducer  [0m
+ [0m - DataRaptor/SearchProducerByUserDNA # SearchProducerByUserDNA  [0m
+ [0m - DataRaptor/SearchProducerForExternalUser # SearchProducerForExternalUser  [0m
+ [0m - DataRaptor/esLineaPermitida # esLineaPermitida  [0m
+ [0m - DataRaptor/TransformarValorPrimas # TransformarValorPrimas  [0m
+ [0m - DataRaptor/Update_Policy # Update_Policy  [0m
+ [0m - DataRaptor/SURADataRaptorGuardarConductorSiniestro # SURADataRaptorGuardarConductorSiniestro  [0m
+ [0m - DataRaptor/SURADataRaptorGuardarConductorSiniestro # SURADataRaptorGuardarConductorSiniestro  [0m
+ [0m - DataRaptor/GET_DetallesDocumentoCotizacionCopy1691580044761 # GET_DetallesDocumentoCotizacionCopy1691580044761  [0m
+ [0m - DataRaptor/TRNS_DetallesDocumentoCotizacionCopy1691580044761 # TRNS_DetallesDocumentoCotizacionCopy1691580044761  [0m
+ [0m - DataRaptor/SURAInputsForRatingProductsV2 # SURAInputsForRatingProductsV2  [0m
+ [0m - DataRaptor/CCM_ObtenerDatosPolizaCoberturasByPolicyId # CCM_ObtenerDatosPolizaCoberturasByPolicyId  [0m
+ [0m - DataRaptor/SURAExtraerInformacionParaPDFCotizaciones # SURAExtraerInformacionParaPDFCotizaciones  [0m
+ [0m - DataRaptor/SURADataRaptorGuardarConductorIdentity # SURADataRaptorGuardarConductorIdentity  [0m
+ [0m - DataRaptor/SURAExtraerValorDevolucion # SURAExtraerValorDevolucion  [0m
+ [0m - DataRaptor/SURAExtraerValoresAnualesPorCobertura # SURAExtraerValoresAnualesPorCobertura  [0m
+ [0m - DataRaptor/SURATransformDataForTomadorJSON # SURATransformDataForTomadorJSON  [0m
+ [0m - DataRaptor/newDepedency # newDepedency  [0m
+ [0m - DataRaptor/SURAExtractInsurancePolicyDetails # SURAExtractInsurancePolicyDetails  [0m
+ [0m - DataRaptor/SURAInsLoadClaimRecovery # SURAInsLoadClaimRecovery  [0m
+ [0m - DataRaptor/SURAGuardarSolicitanteDatosErrados # SURAGuardarSolicitanteDatosErrados  [0m
+ [0m - DataRaptor/SURAClaimDataRecoveryExtractW # SURAClaimDataRecoveryExtractW  [0m
+ [0m - DataRaptor/ModifyDocumentSetting # ModifyDocumentSetting  [0m
+ [0m - DataRaptor/DataRaptorTransformClaimCoberturas # DataRaptorTransformClaimCoberturas  [0m
+ [0m - DataRaptor/SURAinscreateBusinessAccount # SURAinscreateBusinessAccount  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosCotizacionByQuoteId # SARLAFT_ObtenerDatosCotizacionByQuoteId  [0m
+ [0m - DataRaptor/DocumentExtract # DocumentExtract  [0m
+ [0m - DataRaptor/SURAinsTransformRecoveryData # SURAinsTransformRecoveryData  [0m
+ [0m - DataRaptor/SURAClaimDataRecoveryExtract # SURAClaimDataRecoveryExtract  [0m
+ [0m - DataRaptor/getActivePoliciesByInsuredDocumentAndPlate # getActivePoliciesByInsuredDocumentAndPlate  [0m
+ [0m - DataRaptor/SURAGetQuoteId # SURAGetQuoteId  [0m
+ [0m - DataRaptor/SURAUpdatePolicy # SURAUpdatePolicy  [0m
+ [0m - DataRaptor/SURAUpdatePolicyAndQuoteValues # SURAUpdatePolicyAndQuoteValues  [0m
+ [0m - DataRaptor/SURAObtenerDatosPolizaSiniestros # SURAObtenerDatosPolizaSiniestros  [0m
+ [0m - DataRaptor/SURAautoTransCreateFSCClaimCreateClaimIP # SURAautoTransCreateFSCClaimCreateClaimIP  [0m
+ [0m - DataRaptor/SURADataRaptorExtractActionConsecutivo # SURADataRaptorExtractActionConsecutivo  [0m
+ [0m - DataRaptor/SURADataRaptorPostActionConsecutivo # SURADataRaptorPostActionConsecutivo  [0m
+ [0m - DataRaptor/SURADataRaptorGuardarReclamante # SURADataRaptorGuardarReclamante  [0m
+ [0m - DataRaptor/SURAautoTrn1PartyVehUpdtClaim1PartyVehIP # SURAautoTrn1PartyVehUpdtClaim1PartyVehIP  [0m
+ [0m - DataRaptor/SURAautoPost3PartyDriverClaim3PartyIP # SURAautoPost3PartyDriverClaim3PartyIP  [0m
+ [0m - DataRaptor/SURAautoTrn3PartyVehUpdtClaim3PartyVehIP # SURAautoTrn3PartyVehUpdtClaim3PartyVehIP  [0m
+ [0m - DataRaptor/SURAautoTrn3PartyVehUpdtClaim3PartyVehIPEdit # SURAautoTrn3PartyVehUpdtClaim3PartyVehIPEdit  [0m
+ [0m - DataRaptor/SURAautoPostInjuredPersonContactClaimInjuredPersonIP # SURAautoPostInjuredPersonContactClaimInjuredPersonIP  [0m
+ [0m - DataRaptor/SURAautoTransInjuredPersonUpdateFSCClaimClaimInjuredPersonIP # SURAautoTransInjuredPersonUpdateFSCClaimClaimInjuredPersonIP  [0m
+ [0m - DataRaptor/SURAClaimGrabarFallecido # SURAClaimGrabarFallecido  [0m
+ [0m - DataRaptor/SURADataraptorClaimsAbiertos # SURADataraptorClaimsAbiertos  [0m
+ [0m - DataRaptor/SURAInsUpdateClaimName # SURAInsUpdateClaimName  [0m
+ [0m - DataRaptor/SURATransformDataForPDF # SURATransformDataForPDF  [0m
+ [0m - DataRaptor/ConvertDocumentType # ConvertDocumentType  [0m
+ [0m - DataRaptor/SURATransformDataForPDFCopy1699039916880 # SURATransformDataForPDFCopy1699039916880  [0m
+ [0m - DataRaptor/SURAExtraerInformacionParaPDFCotizacionesCopy1699039916880 # SURAExtraerInformacionParaPDFCotizacionesCopy1699039916880  [0m
+ [0m - DataRaptor/SURAautoPost3PartyWitnessClaim3PartyIPRelated # SURAautoPost3PartyWitnessClaim3PartyIPRelated  [0m
+ [0m - DataRaptor/SURAObtenerDatosPolizaSiniestrosCancelacion # SURAObtenerDatosPolizaSiniestrosCancelacion  [0m
+ [0m - DataRaptor/SURATransformDataPolizasSiniestro # SURATransformDataPolizasSiniestro  [0m
+ [0m - DataRaptor/SURATransformPolicyId # SURATransformPolicyId  [0m
+ [0m - DataRaptor/SURAGetNumericoContableVentas # SURAGetNumericoContableVentas  [0m
+ [0m - DataRaptor/SURAautoTrn3PartyWitnessUpdtClaim3PartyWitnessIP # SURAautoTrn3PartyWitnessUpdtClaim3PartyWitnessIP  [0m
+ [0m - DataRaptor/SURAautoPost3PartyWellClaim3PartyIPRelated # SURAautoPost3PartyWellClaim3PartyIPRelated  [0m
+ [0m - DataRaptor/SURAautoPost3PartyWitnessClaim3PartyIP # SURAautoPost3PartyWitnessClaim3PartyIP  [0m
+ [0m - DataRaptor/SURAautoPostThirdPartyDriverContactClaimThirdPartyVehicleIP # SURAautoPostThirdPartyDriverContactClaimThirdPartyVehicleIP  [0m
+ [0m - DataRaptor/PAGOS_ObtenerDatosPagadorByQuoteId # PAGOS_ObtenerDatosPagadorByQuoteId  [0m
+ [0m - DataRaptor/PAGOS_ObtenerDatosProductoByQuoteId # PAGOS_ObtenerDatosProductoByQuoteId  [0m
+ [0m - DataRaptor/SURAinsClaimsReadFSCParticipantParticipantIP # SURAinsClaimsReadFSCParticipantParticipantIP  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosPolizaByQuoteId # SARLAFT_ObtenerDatosPolizaByQuoteId  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosPagadorByQuoteId # SARLAFT_ObtenerDatosPagadorByQuoteId  [0m
+ [0m - DataRaptor/SARLAFT_ObtenerDatosAseguradoByQuoteId # SARLAFT_ObtenerDatosAseguradoByQuoteId  [0m
+ [0m - DataRaptor/SURADataRaptorTransformActionRC # SURADataRaptorTransformActionRC  [0m
+ [0m - DataRaptor/CCM_ObtenerDatosPolizaCoberturasByPolicyIdV2 # CCM_ObtenerDatosPolizaCoberturasByPolicyIdV2  [0m
+ [0m - DataRaptor/SURAExtraerInformacionParaPDFCotizacionesCopy1694099934702 # SURAExtraerInformacionParaPDFCotizacionesCopy1694099934702  [0m
+ [0m - DataRaptor/SURATransformDataForPDFCopy1694099934702 # SURATransformDataForPDFCopy1694099934702  [0m
+ [0m - DataRaptor/SURATransformarArregloPolizaCancelacion # SURATransformarArregloPolizaCancelacion  [0m
+ [0m - DataRaptor/SURADataRaptorPostActualizaLogPoliza # SURADataRaptorPostActualizaLogPoliza  [0m
+ [0m - DataRaptor/SURADataRaptorPostAgregarProgramacion # SURADataRaptorPostAgregarProgramacion  [0m
+ [0m - DataRaptor/SURAClaimTransformarArregloPoliza # SURAClaimTransformarArregloPoliza  [0m
+ [0m - DataRaptor/SURAClaimObtenerHolder # SURAClaimObtenerHolder  [0m
+ [0m - DataRaptor/SURAFSCTransPolicyDetailsCancelPolicyOS # SURAFSCTransPolicyDetailsCancelPolicyOS  [0m
+ [0m - DataRaptor/SURACLAIMautoPostInjuredClaimInjuredIP # SURACLAIMautoPostInjuredClaimInjuredIP  [0m
+ [0m - DataRaptor/SURACalcularValorModificado # SURACalcularValorModificado  [0m
+ [0m - DataRaptor/SURAClaimDataRaptorExtractInjury # SURAClaimDataRaptorExtractInjury  [0m
+ [0m - DataRaptor/SURADataraptorExtractReclamante # SURADataraptorExtractReclamante  [0m
+ [0m - DataRaptor/SURAActualizarLeadPagoMensual # SURAActualizarLeadPagoMensual  [0m
+ [0m - DataRaptor/SURADataRaptorTransformCoberturas # SURADataRaptorTransformCoberturas  [0m
+ [0m - DataRaptor/SURAValidarCoberturaClaimApertura # SURAValidarCoberturaClaimApertura  [0m
+ [0m - DataRaptor/SURATransformFasecoldaDataForCexpert # SURATransformFasecoldaDataForCexpert  [0m
+ [0m - DataRaptor/GenerarLeadCumulo # GenerarLeadCumulo  [0m
+ [0m - DataRaptor/SURAExtractDataForLead # SURAExtractDataForLead  [0m
+ [0m - DataRaptor/DatosErradosTest # DatosErradosTest  [0m
+ [0m - DataRaptor/FscReadPolicyDetails # FscReadPolicyDetails  [0m
+ [0m - DataRaptor/SURAExtraerInformacionParaPDFCotizacionesMensuales # SURAExtraerInformacionParaPDFCotizacionesMensuales  [0m
+ [0m - DataRaptor/SOQL test # SOQL test  [0m
+ [0m - DataRaptor/SURAUpdatePaymentEntry # SURAUpdatePaymentEntry  [0m
+ [0m - DataRaptor/FSCTransToCreatePolicyCreateUpdatePolicyIPTEST # FSCTransToCreatePolicyCreateUpdatePolicyIPTEST  [0m
+ [0m - DataRaptor/DRGuardarSolicitanteDatosErrados # DRGuardarSolicitanteDatosErrados  [0m
+ [0m - DataRaptor/SURAAseguradoStro # SURAAseguradoStro  [0m
+ [0m - DataRaptor/TestingDates # TestingDates  [0m
+ [0m - DataRaptor/SURAExtraerValoresReglaDeMovilidad # SURAExtraerValoresReglaDeMovilidad  [0m
+ [0m - DocumentTemplate/SURACotizacionMensual # SURACotizacionMensual  [0m
+ [0m - DocumentTemplate/SURACotizacion # SURACotizacion  [0m
+ [0m - ExpressionSet/MOTOSPlanEsencial # MOTOSPlanEsencial  [0m
+ [0m - ExpressionSet/MOTOSPlanPlus # MOTOSPlanPlus  [0m
+ [0m - ExpressionSet/MOTOSPlanTotal # MOTOSPlanTotal  [0m
+ [0m - ExpressionSet/ConsultaGastos # ConsultaGastos  [0m
+ [0m - ExpressionSet/ConsultaModificadores # ConsultaModificadores  [0m
+ [0m - ExpressionSet/ConsultaRelatividad # ConsultaRelatividad  [0m
+ [0m - ExpressionSet/EstandarizaVariables # EstandarizaVariables  [0m
+ [0m - ExpressionSet/HomologacionMarca # HomologacionMarca  [0m
+ [0m - ExpressionSet/PrimaDevolucion # PrimaDevolucion  [0m
+ [0m - ExpressionSet/PrimaAsistencia # PrimaAsistencia  [0m
+ [0m - ExpressionSet/PrimaPTD # PrimaPTD  [0m
+ [0m - ExpressionSet/PrimaPTH # PrimaPTH  [0m
+ [0m - ExpressionSet/PrimaRC # PrimaRC  [0m
+ [0m - ExpressionSet/PrimaRCBienes # PrimaRCBienes  [0m
+ [0m - ExpressionSet/PrimaRCPersonas # PrimaRCPersonas  [0m
+ [0m - ExpressionSet/VariablesEstandarizadas # VariablesEstandarizadas  [0m
+ [0m - ExpressionSetVersion/MOTOSPlanEsencial V1 # MOTOSPlanEsencial V1  [0m
+ [0m - ExpressionSetVersion/MOTOSPlanPlus V1 # MOTOSPlanPlus V1  [0m
+ [0m - ExpressionSetVersion/MOTOSPlanTotal V1 # MOTOSPlanTotal V1  [0m
+ [0m - ExpressionSetVersion/ConsultaGastos V1 # ConsultaGastos V1  [0m
+ [0m - ExpressionSetVersion/ConsultaModificadores V1 # ConsultaModificadores V1  [0m
+ [0m - ExpressionSetVersion/ConsultaRelatividad V1 # ConsultaRelatividad V1  [0m
+ [0m - ExpressionSetVersion/EstandarizaVariables V1 # EstandarizaVariables V1  [0m
+ [0m - ExpressionSetVersion/HomologacionMarca V1 # HomologacionMarca V1  [0m
+ [0m - ExpressionSetVersion/PrimaDevolucion V1 # PrimaDevolucion V1  [0m
+ [0m - ExpressionSetVersion/PrimaAsistencia V1 # PrimaAsistencia V1  [0m
+ [0m - ExpressionSetVersion/PrimaPTD V1 # PrimaPTD V1  [0m
+ [0m - ExpressionSetVersion/PrimaPTH V1 # PrimaPTH V1  [0m
+ [0m - ExpressionSetVersion/PrimaRC V1 # PrimaRC V1  [0m
+ [0m - ExpressionSetVersion/PrimaRCBienes V1 # PrimaRCBienes V1  [0m
+ [0m - ExpressionSetVersion/PrimaRCPersonas V1 # PrimaRCPersonas V1  [0m
+ [0m - ExpressionSetVersion/VariablesEstandarizadas V1 # VariablesEstandarizadas V1  [0m
+ [0m - ExpressionSetVersion/ConsultaModificadores V2 # ConsultaModificadores V2  [0m
+ [0m - ExpressionSetVersion/ConsultaGastos V2 # ConsultaGastos V2  [0m
+ [0m - GeneralSettings/CalculationProcedureCachePartition # CalculationProcedureCachePartition  [0m
+ [0m - GeneralSettings/StateModelRulesCachePartition # StateModelRulesCachePartition  [0m
+ [0m - GeneralSettings/LoggingEnabled # LoggingEnabled  [0m
+ [0m - GeneralSettings/OmniAnalyticsTrackAsEvent # OmniAnalyticsTrackAsEvent  [0m
+ [0m - GeneralSettings/OmniAnalyticsEnabled # OmniAnalyticsEnabled  [0m
+ [0m - GeneralSettings/OmniAnalyticsTrackAsObject # OmniAnalyticsTrackAsObject  [0m
+ [0m - IntegrationProcedure/PAGOS_ValidacionSARLAFTGuestUser # PAGOS_ValidacionSARLAFTGuestUser  [0m
+ [0m - IntegrationProcedure/SuraValidate_Politics # SuraValidate_Politics  [0m
+ [0m - IntegrationProcedure/PAGOS_ValidacionSARLAFT # PAGOS_ValidacionSARLAFT  [0m
+ [0m - IntegrationProcedure/SURA_delete3rdPartyVehicle # SURA_delete3rdPartyVehicle  [0m
+ [0m - IntegrationProcedure/CCM_EnviarBienvenida # CCM_EnviarBienvenida  [0m
+ [0m - IntegrationProcedure/InsRecordHeader_getDetails # InsRecordHeader_getDetails  [0m
+ [0m - IntegrationProcedure/SURA_AccountProcessing # SURA_AccountProcessing  [0m
+ [0m - IntegrationProcedure/SURA_RecuperarCoberturasReclamacion # SURA_RecuperarCoberturasReclamacion  [0m
+ [0m - IntegrationProcedure/SURA_SearchProductAndStablishTitleByQuoteId # SURA_SearchProductAndStablishTitleByQuoteId  [0m
+ [0m - IntegrationProcedure/InsRecordHeaderInsurancePolicy_getDetails # InsRecordHeaderInsurancePolicy_getDetails  [0m
+ [0m - IntegrationProcedure/CEXPERT_BonificacionNoVigente # CEXPERT_BonificacionNoVigente  [0m
+ [0m - IntegrationProcedure/MOTOS_ValidarRiesgo # MOTOS_ValidarRiesgo  [0m
+ [0m - IntegrationProcedure/ValidacionCreacionDeCuenta_Cuenta # ValidacionCreacionDeCuenta_Cuenta  [0m
+ [0m - IntegrationProcedure/SURA_ObtenerDatospolizaCancelacion # SURA_ObtenerDatospolizaCancelacion  [0m
+ [0m - IntegrationProcedure/SURA_GetCexpertBonAndCansStros # SURA_GetCexpertBonAndCansStros  [0m
+ [0m - IntegrationProcedure/testDependecy_testDependecy # testDependecy_testDependecy  [0m
+ [0m - IntegrationProcedure/LogTarificacion_PlanTotal # LogTarificacion_PlanTotal  [0m
+ [0m - IntegrationProcedure/SURA_TransformarDatosParaCrearLead # SURA_TransformarDatosParaCrearLead  [0m
+ [0m - IntegrationProcedure/InsAccount_GetStories # InsAccount_GetStories  [0m
+ [0m - IntegrationProcedure/SURA_deleteInvolvedInjury # SURA_deleteInvolvedInjury  [0m
+ [0m - IntegrationProcedure/CustomerInteractionContact_Creation # CustomerInteractionContact_Creation  [0m
+ [0m - IntegrationProcedure/LogTarificacion_PlanEsencial # LogTarificacion_PlanEsencial  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarFasecoldaGuestUser # SURA_ConsultarFasecoldaGuestUser  [0m
+ [0m - IntegrationProcedure/InsuredItems_OutputMap # InsuredItems_OutputMap  [0m
+ [0m - IntegrationProcedure/SURA_AddThirdPartyWellToClaim # SURA_AddThirdPartyWellToClaim  [0m
+ [0m - IntegrationProcedure/SURA_SeleccionarDetallesPolizaCancelacion # SURA_SeleccionarDetallesPolizaCancelacion  [0m
+ [0m - IntegrationProcedure/Get_RatedPlansService # Get_RatedPlansService  [0m
+ [0m - IntegrationProcedure/SURA_ClaimFirstPartyVehicle # SURA_ClaimFirstPartyVehicle  [0m
+ [0m - IntegrationProcedure/Creacion_Cuenta # Creacion_Cuenta  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarFasecolda # SURA_ConsultarFasecolda  [0m
+ [0m - IntegrationProcedure/SURA_ClaimDeleteWitness # SURA_ClaimDeleteWitness  [0m
+ [0m - IntegrationProcedure/SURA_PrimaAnualMaxima # SURA_PrimaAnualMaxima  [0m
+ [0m - IntegrationProcedure/SURA_ClaimThirdPartyVehicleEdit # SURA_ClaimThirdPartyVehicleEdit  [0m
+ [0m - IntegrationProcedure/InsRecordHeaderQuote_getDetails # InsRecordHeaderQuote_getDetails  [0m
+ [0m - IntegrationProcedure/SURA_ClaimSeleccionarDetallesPoliza # SURA_ClaimSeleccionarDetallesPoliza  [0m
+ [0m - IntegrationProcedure/CEXPERT_BonificacionVigente # CEXPERT_BonificacionVigente  [0m
+ [0m - IntegrationProcedure/GuardarLogTarifa_TodosLosPlanesMOTOS # GuardarLogTarifa_TodosLosPlanesMOTOS  [0m
+ [0m - IntegrationProcedure/Creacion_Oportunidad # Creacion_Oportunidad  [0m
+ [0m - IntegrationProcedure/LogTarificacion_PlanPlus # LogTarificacion_PlanPlus  [0m
+ [0m - IntegrationProcedure/SURA_ValidarRiesgo # SURA_ValidarRiesgo  [0m
+ [0m - IntegrationProcedure/SURA_EliminarUltimoDocumentgenerado # SURA_EliminarUltimoDocumentgenerado  [0m
+ [0m - IntegrationProcedure/QA_TarificacionPlanTotal # QA_TarificacionPlanTotal  [0m
+ [0m - IntegrationProcedure/SURA_GenerarPolicyTerms # SURA_GenerarPolicyTerms  [0m
+ [0m - IntegrationProcedure/CustomerInteractionAccount_Creation # CustomerInteractionAccount_Creation  [0m
+ [0m - IntegrationProcedure/SURA_ClaimDeleteWell # SURA_ClaimDeleteWell  [0m
+ [0m - IntegrationProcedure/Creacion_HistoricoCotizaciones # Creacion_HistoricoCotizaciones  [0m
+ [0m - IntegrationProcedure/Issue_Producer # Issue_Producer  [0m
+ [0m - IntegrationProcedure/SURA_BuscarPrepolizasPorPlaca # SURA_BuscarPrepolizasPorPlaca  [0m
+ [0m - IntegrationProcedure/Create_ErrorLog # Create_ErrorLog  [0m
+ [0m - IntegrationProcedure/SURA_ConsultaRiesgoGuestUser # SURA_ConsultaRiesgoGuestUser  [0m
+ [0m - IntegrationProcedure/InsIntelligence_offers # InsIntelligence_offers  [0m
+ [0m - IntegrationProcedure/InsRecordHeaderAsset_getDetails # InsRecordHeaderAsset_getDetails  [0m
+ [0m - IntegrationProcedure/SURA_Documentgenerator # SURA_Documentgenerator  [0m
+ [0m - IntegrationProcedure/SURA_ConsultaVehiculoPorPlacaWithoutLog # SURA_ConsultaVehiculoPorPlacaWithoutLog  [0m
+ [0m - IntegrationProcedure/GenerarDocumentoCotizacion_ServerSide # GenerarDocumentoCotizacion_ServerSide  [0m
+ [0m - IntegrationProcedure/SURA_ConsultaRiesgo # SURA_ConsultaRiesgo  [0m
+ [0m - IntegrationProcedure/Interaction_handleInteractionFieldClick # Interaction_handleInteractionFieldClick  [0m
+ [0m - IntegrationProcedure/SURA_CrearCoberturaClaim # SURA_CrearCoberturaClaim  [0m
+ [0m - IntegrationProcedure/SURA_GuardarValorDeducibleCotizacion # SURA_GuardarValorDeducibleCotizacion  [0m
+ [0m - IntegrationProcedure/POC_DummyService # POC_DummyService  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarFasecolda_Mock # SURA_ConsultarFasecolda_Mock  [0m
+ [0m - IntegrationProcedure/SURA_CreatePlanPlusQuote # SURA_CreatePlanPlusQuote  [0m
+ [0m - IntegrationProcedure/CustomerInteractionAccountCMT_Creation # CustomerInteractionAccountCMT_Creation  [0m
+ [0m - IntegrationProcedure/SURA_ClaimThirdPartyVehicle # SURA_ClaimThirdPartyVehicle  [0m
+ [0m - IntegrationProcedure/MOTOS_ConsultarSiniestro # MOTOS_ConsultarSiniestro  [0m
+ [0m - IntegrationProcedure/SURA_AddThirdPartyWitnessToClaim # SURA_AddThirdPartyWitnessToClaim  [0m
+ [0m - IntegrationProcedure/SURA_CreatePlanEsencialQuote # SURA_CreatePlanEsencialQuote  [0m
+ [0m - IntegrationProcedure/QA_TarificacionPlanPlus # QA_TarificacionPlanPlus  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarBase # SURA_ConsultarBase  [0m
+ [0m - IntegrationProcedure/CCM_EnviarBienvenidaGuestUser # CCM_EnviarBienvenidaGuestUser  [0m
+ [0m - IntegrationProcedure/SURA_AddInjuredPersonToClaimAuto # SURA_AddInjuredPersonToClaimAuto  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarSiniestroCexpert # SURA_ConsultarSiniestroCexpert  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarVehiculo # SURA_ConsultarVehiculo  [0m
+ [0m - IntegrationProcedure/QA_TarificacionPlanEsencial # QA_TarificacionPlanEsencial  [0m
+ [0m - IntegrationProcedure/SURA_ObtenerDatoPolizaSiniestros # SURA_ObtenerDatoPolizaSiniestros  [0m
+ [0m - IntegrationProcedure/EsLineaPermitida_Integracion # EsLineaPermitida_Integracion  [0m
+ [0m - IntegrationProcedure/SURA_ValidatePoliciesByPlaca # SURA_ValidatePoliciesByPlaca  [0m
+ [0m - IntegrationProcedure/SURA_GuardarLead # SURA_GuardarLead  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarSiniestro365Dias # SURA_ConsultarSiniestro365Dias  [0m
+ [0m - IntegrationProcedure/CustomerInteractionContactCMT_Creation # CustomerInteractionContactCMT_Creation  [0m
+ [0m - IntegrationProcedure/PAGOS_GenerarUrlPagoGuestUser # PAGOS_GenerarUrlPagoGuestUser  [0m
+ [0m - IntegrationProcedure/BuscarCuenta_DocumentId # BuscarCuenta_DocumentId  [0m
+ [0m - IntegrationProcedure/SURATest_CrearPolizaTest # SURATest_CrearPolizaTest  [0m
+ [0m - IntegrationProcedure/SURA_CancelPolicyService # SURA_CancelPolicyService  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarSiniestro # SURA_ConsultarSiniestro  [0m
+ [0m - IntegrationProcedure/Validar_Siniestro # Validar_Siniestro  [0m
+ [0m - IntegrationProcedure/SURA_EsLineaPermitidaIntegracion # SURA_EsLineaPermitidaIntegracion  [0m
+ [0m - IntegrationProcedure/SURA_CreateClaim # SURA_CreateClaim  [0m
+ [0m - IntegrationProcedure/SURA_MatrixIncrementoSiniestro # SURA_MatrixIncrementoSiniestro  [0m
+ [0m - IntegrationProcedure/SURA_ConsultaVehiculoPorPlaca # SURA_ConsultaVehiculoPorPlaca  [0m
+ [0m - IntegrationProcedure/PAGOS_GenerarUrlPago # PAGOS_GenerarUrlPago  [0m
+ [0m - IntegrationProcedure/SURA_CreatePlantOTALQuote # SURA_CreatePlantOTALQuote  [0m
+ [0m - IntegrationProcedure/SURA_MatrixCexpertDescuentoSiniestros # SURA_MatrixCexpertDescuentoSiniestros  [0m
+ [0m - IntegrationProcedure/CreateTest_test # CreateTest_test  [0m
+ [0m - IntegrationProcedure/SURA_ConsultarVehiculoGuestUser # SURA_ConsultarVehiculoGuestUser  [0m
+ [0m - IntegrationProcedure/SURA_ConsultaVehiculoPorPlacaGuestUser # SURA_ConsultaVehiculoPorPlacaGuestUser  [0m
+ [0m - IntegrationProcedure/SURA_CrearPoliza # SURA_CrearPoliza  [0m
+ [0m - IntegrationProcedure/Get_RatedPlansServicePlanEsencial # Get_RatedPlansServicePlanEsencial  [0m
+ [0m - IntegrationProcedure/Create_Quote # Create_Quote  [0m
+ [0m - IntegrationProcedure/Get_RatedPlansServicePlanTotal # Get_RatedPlansServicePlanTotal  [0m
+ [0m - IntegrationProcedure/Get_RatedPlansServicePlanPlus # Get_RatedPlansServicePlanPlus  [0m
+ [0m - IntegrationRetryPolicy/ee28973a-6a66-4ee0-9495-24e101fc253c # Default Retry Policy for Callouts (ee28973a-6a66-4ee0-9495-24e101fc253c)  [0m
+ [0m - IntegrationRetryPolicy/e70f3f84-1aa1-4f50-9975-9dd54563687c # Default Retry Policy for AutoTasks (e70f3f84-1aa1-4f50-9975-9dd54563687c)  [0m
+ [0m - ItemImplementation/NoOp # NoOp  [0m
+ [0m - ItemImplementation/Assetize # Assetize  [0m
+ [0m - ItemImplementation/BackPropagate # BackPropagate  [0m
+ [0m - ItemImplementation/Calculate # Calculate  [0m
+ [0m - ItemImplementation/AssetizeOrderItem # AssetizeOrderItem  [0m
+ [0m - ManualQueue/Fallout Error Queue # Fallout Error Queue  [0m
+ [0m - OmniScript/yessith_test_English # yessith_test_English  [0m
+ [0m - OmniScript/InteractionLauncher_AccountSearch_English # InteractionLauncher_AccountSearch_English  [0m
+ [0m - OmniScript/test_TableTest_English # test_TableTest_English  [0m
+ [0m - OmniScript/SURA_FormularioReclamacionSpanish_Spanish # SURA_FormularioReclamacionSpanish_Spanish  [0m
+ [0m - OmniScript/Product_Select_English # Product_Select_English  [0m
+ [0m - OmniScript/SURA_NoEstamosPreparadosSpanish_Spanish # SURA_NoEstamosPreparadosSpanish_Spanish  [0m
+ [0m - OmniScript/Taxes_Fees_English # Taxes_Fees_English  [0m
+ [0m - OmniScript/Documentation_OmniAnalytics_English # Documentation_OmniAnalytics_English  [0m
+ [0m - OmniScript/SURA_EstamosProcesandoTuPagoSpanish_Spanish # SURA_EstamosProcesandoTuPagoSpanish_Spanish  [0m
+ [0m - OmniScript/SURA_GenerarCotizacionAlt_Spanish # SURA_GenerarCotizacionAlt_Spanish  [0m
+ [0m - OmniScript/SURA_LeadResumenDeCompra_Spanish # SURA_LeadResumenDeCompra_Spanish  [0m
+ [0m - OmniScript/Documentos_Cotizacion_English # Documentos_Cotizacion_English  [0m
+ [0m - OmniScript/SURA_FormularioPlacaSpanish_Spanish # SURA_FormularioPlacaSpanish_Spanish  [0m
+ [0m - OmniScript/docGenerationSample_singleWebVF_English # docGenerationSample_singleWebVF_English  [0m
+ [0m - OmniScript/test_Pago_English # test_Pago_English  [0m
+ [0m - OmniScript/SURA_ClaimRecovery_Spanish # SURA_ClaimRecovery_Spanish  [0m
+ [0m - OmniScript/SURA_Error500_Spanish # SURA_Error500_Spanish  [0m
+ [0m - OmniScript/docGenerationSample_multiDocxVF_English # docGenerationSample_multiDocxVF_English  [0m
+ [0m - OmniScript/SURA_DatosErradosRUNTSpanish_Spanish # SURA_DatosErradosRUNTSpanish_Spanish  [0m
+ [0m - OmniScript/docGenerationSample_singleDocxVF_English # docGenerationSample_singleDocxVF_English  [0m
+ [0m - OmniScript/SURA_YaTenemosTusDatosSpanish_Spanish # SURA_YaTenemosTusDatosSpanish_Spanish  [0m
+ [0m - OmniScript/test_TableTest_Spanish # test_TableTest_Spanish  [0m
+ [0m - OmniScript/SURA_LeadCumulo_Spanish # SURA_LeadCumulo_Spanish  [0m
+ [0m - OmniScript/SURA_FormularioPlacaSpanishYessith_Spanish # SURA_FormularioPlacaSpanishYessith_Spanish  [0m
+ [0m - OmniScript/test_CommunitiesParams_English # test_CommunitiesParams_English  [0m
+ [0m - OmniScript/SURA_CotizacionEnPausaSpanish_Spanish # SURA_CotizacionEnPausaSpanish_Spanish  [0m
+ [0m - OmniScript/SURA_FormularioPlacaSpanishNamedCredentialTest_Spanish # SURA_FormularioPlacaSpanishNamedCredentialTest_Spanish  [0m
+ [0m - OrchestrationItemDefinition/OffPlatform_Callout_Template_OffPlatform_PlanDefinition # OffPlatform_Callout_Template (OffPlatform_Callout_Template_OffPlatform_PlanDefinition)  [0m
+ [0m - OrchestrationItemDefinition/OffPlatform_AutoTask_Template_OffPlatform_PlanDefinition # OffPlatform_AutoTask_Template (OffPlatform_AutoTask_Template_OffPlatform_PlanDefinition)  [0m
+ [0m - OrchestrationItemDefinition/OffPlatform_ItemDefinition_OffPlatform_PlanDefinition # OffPlatform_ItemDefinition (OffPlatform_ItemDefinition_OffPlatform_PlanDefinition)  [0m
+ [0m - OrchestrationItemDefinition/Resolve Fallout_Resolve Orchestration Fallouts # Resolve Fallout (Resolve Fallout_Resolve Orchestration Fallouts)  [0m
+ [0m - OrchestrationPlanDefinition/OffPlatform_PlanDefinition # OffPlatform_PlanDefinition  [0m
+ [0m - OrchestrationPlanDefinition/Resolve Orchestration Fallouts # Resolve Orchestration Fallouts  [0m
+ [0m - OrchestrationQueueAssignmentRule/Default Normal Priority Queue # Default Normal Priority Queue  [0m
+ [0m - PriceList/TAX_IVA # IVA (TAX_IVA)  [0m
+ [0m - Pricebook2/Standard Price Book # Standard Price Book  [0m
+ [0m - Product2/0a579b1f-98cf-fa33-ad3c-fcc857d29159 # Moto (MOTOS_InsItem / 0a579b1f-98cf-fa33-ad3c-fcc857d29159)  [0m
+ [0m - Product2/10ab5eb7-1ab5-f14f-43db-1893052ec772 # Grúa en ciudad principal (CoverageAsisGrua / 10ab5eb7-1ab5-f14f-43db-1893052ec772)  [0m
+ [0m - Product2/19ca19c6-4d9f-63e6-91fc-dd0549e821b1 # Asistencia jurídica virtual (CoverageAsisJuridica / 19ca19c6-4d9f-63e6-91fc-dd0549e821b1)  [0m
+ [0m - Product2/4657f0be-ce40-58b5-847b-05d019e80df9 # Daños a terceros personas (CoverageRCPersonas / 4657f0be-ce40-58b5-847b-05d019e80df9)  [0m
+ [0m - Product2/6cb2a7e6-c74d-abec-f073-9ea760c1a0e4 # Daños a terceros bienes (CoverageRCBienes / 6cb2a7e6-c74d-abec-f073-9ea760c1a0e4)  [0m
+ [0m - Product2/93d68e80-1130-121c-b7a4-81daa3c7604c # Pérdida total por hurto (CoveragePTH / 93d68e80-1130-121c-b7a4-81daa3c7604c)  [0m
+ [0m - Product2/95d64ecc-b532-ee28-7549-17fae78450d8 # Conductor (InsParty / 95d64ecc-b532-ee28-7549-17fae78450d8)  [0m
+ [0m - Product2/9a9f8e0b-f237-08ed-cd63-71179cfa2669 # Gastos defensa judicial (CoverageGastosDefJud / 9a9f8e0b-f237-08ed-cd63-71179cfa2669)  [0m
+ [0m - Product2/a4657060-3a73-5d5d-baa2-98fc2ad9ff7b # Beneficio del 10% en la próxima vigencia (CoverageDevolucionPrima / a4657060-3a73-5d5d-baa2-98fc2ad9ff7b)  [0m
+ [0m - Product2/b7914a6f-2a57-f97d-cc53-114e120f1876 # Pérdida total por daño (CoveragePTD / b7914a6f-2a57-f97d-cc53-114e120f1876)  [0m
+ [0m - Product2/e0a1220c-c35f-2bff-ce4a-45cad1710ca5 # Taller móvil (CoverageAsisTaller / e0a1220c-c35f-2bff-ce4a-45cad1710ca5)  [0m
+ [0m - Product2/1a5c1480-3ccd-5b5a-09c7-08204c3c24cd # Plan Total Reclamaciones (MOTOS_PlanTotal_Reclamaciones / 1a5c1480-3ccd-5b5a-09c7-08204c3c24cd)  [0m
+ [0m - Product2/2080178c-0c87-33bb-a68f-3a386d3e5d10 # Plan Plus Reclamaciones (MOTOS_PlanPlus_Reclamaciones / 2080178c-0c87-33bb-a68f-3a386d3e5d10)  [0m
+ [0m - Product2/3590a577-9d01-7f3f-4fc5-d63cb81bcb7e # Lesionado en Siniestro (claimInjuredPerson / 3590a577-9d01-7f3f-4fc5-d63cb81bcb7e)  [0m
+ [0m - Product2/5e2b02b6-f963-debc-158d-b9767bab84c0 # Vehículo Involucrado (autoClaimInvolvedVehicle / 5e2b02b6-f963-debc-158d-b9767bab84c0)  [0m
+ [0m - Product2/91d62fd4-8bc3-5b35-bd76-d046a2be2825 # Plan Esencial (MOTOS_PlanEsencial / 91d62fd4-8bc3-5b35-bd76-d046a2be2825)  [0m
+ [0m - Product2/a86c6d19-68bf-395f-1a43-5a8f906aff70 # Plan Total (MOTOS_PlanTotal / a86c6d19-68bf-395f-1a43-5a8f906aff70)  [0m
+ [0m - Product2/b23c5ab1-2a0a-d578-2663-91d1bb7fef85 # Plan Plus (MOTOS_PlanPlus / b23c5ab1-2a0a-d578-2663-91d1bb7fef85)  [0m
+ [0m - Product2/bf071ca2-b762-a20e-dac0-b1b932b8ac01 # Plan Esencial Reclamaciones (MOTOS_PlanEsencial_Reclamaciones / bf071ca2-b762-a20e-dac0-b1b932b8ac01)  [0m
+ [0m - Product2/13dfbf62-6adf-6bcd-819a-e019b38e5769 # Bien Involucrado (autoClaimInvolvedWell / 13dfbf62-6adf-6bcd-819a-e019b38e5769)  [0m
+ [0m - Product2/fd5448dc-a37b-d250-d9b4-932e9041fc33 # Testigo (claimWitness / fd5448dc-a37b-d250-d9b4-932e9041fc33)  [0m
+ [0m - Product2/f25a1f96-9b6d-16db-22c2-4afe07f06154 # Reclamante (claimClaiment / f25a1f96-9b6d-16db-22c2-4afe07f06154)  [0m
+ [0m - Product2/86763ac9-90ea-6201-011a-2eb8af5d0a3b # Conductor involucrado (claimDriver / 86763ac9-90ea-6201-011a-2eb8af5d0a3b)  [0m
+ [0m - ThorOrchestrationQueue/c8d24688-392a-a7c4-63d5-de6f165cbbb5 # Low Priority (c8d24688-392a-a7c4-63d5-de6f165cbbb5)  [0m
+ [0m - ThorOrchestrationQueue/699460dd-b9c5-8d2a-f465-8a328602942f # Normal Priority (699460dd-b9c5-8d2a-f465-8a328602942f)  [0m
+ [0m - ThorOrchestrationQueue/65698bf6-8684-0b4a-c2ab-8fdd905162f0 # High Priority (65698bf6-8684-0b4a-c2ab-8fdd905162f0)  [0m
+ [0m - VlocityAction/Configure Order # Configure Order  [0m
+ [0m - VlocityAction/SampleInteractionAccount-ViewDetails # SampleInteractionAccount-ViewDetails  [0m
+ [0m - VlocityAction/VerifyActionProcessService # VerifyActionProcessService  [0m
+ [0m - VlocityAction/View Provisioning Status # View Provisioning Status  [0m
+ [0m - VlocityAction/View Record # View Record  [0m
+ [0m - VlocityAction/Policy-Log Dispute # Policy-Log Dispute  [0m
+ [0m - VlocityAction/Policy-PolicyDetails # Policy-PolicyDetails  [0m
+ [0m - VlocityAction/Story_updateTask # Story_updateTask  [0m
+ [0m - VlocityAction/Opportunity-PersonalMarketing # Opportunity-PersonalMarketing  [0m
+ [0m - VlocityAction/SampleDocxTemplateDocGeneration # SampleDocxTemplateDocGeneration  [0m
+ [0m - VlocityAction/SampleMultiDocxTemplateDocGeneration # SampleMultiDocxTemplateDocGeneration  [0m
+ [0m - VlocityAction/SampleWebTemplateDocGeneration # SampleWebTemplateDocGeneration  [0m
+ [0m - VlocityCard/Interaction Campaign Story # Interaction Campaign Story  [0m
+ [0m - VlocityCard/Interaction Case Story # Interaction Case Story  [0m
+ [0m - VlocityCard/Interaction Claim Story # Interaction Claim Story  [0m
+ [0m - VlocityCard/Interaction Customer Interaction Story # Interaction Customer Interaction Story  [0m
+ [0m - VlocityCard/Interaction Event Story # Interaction Event Story  [0m
+ [0m - VlocityCard/Interaction Non Held Policy Story # Interaction Non Held Policy Story  [0m
+ [0m - VlocityCard/Interaction Note Story # Interaction Note Story  [0m
+ [0m - VlocityCard/Interaction Opportunity Story # Interaction Opportunity Story  [0m
+ [0m - VlocityCard/Interaction Order Story # Interaction Order Story  [0m
+ [0m - VlocityCard/Interaction Policy Story # Interaction Policy Story  [0m
+ [0m - VlocityCard/Interaction Saved OmniScript Story # Interaction Saved OmniScript Story  [0m
+ [0m - VlocityCard/Interaction Task Story # Interaction Task Story  [0m
+ [0m - VlocityCard/interaction-profile-account-info-slds # interaction-profile-account-info-slds  [0m
+ [0m - VlocityCard/interaction-profile-account-slds # interaction-profile-account-slds  [0m
+ [0m - VlocityCard/interaction-profile-contact # interaction-profile-contact  [0m
+ [0m - VlocityCard/interaction-profile-contact-info # interaction-profile-contact-info  [0m
+ [0m - VlocityCard/insAccountClaimsChildMobile_nds # insAccountClaimsChildMobile_nds  [0m
+ [0m - VlocityCard/insAccountClaimsChild_nds # insAccountClaimsChild_nds  [0m
+ [0m - VlocityCard/insAccountClaimsMobile_nds # insAccountClaimsMobile_nds  [0m
+ [0m - VlocityCard/insAccountPolicyList # insAccountPolicyList  [0m
+ [0m - VlocityCard/insAccountQuoteList # insAccountQuoteList  [0m
+ [0m - VlocityCard/insAgentAccountHomeActions # insAgentAccountHomeActions  [0m
+ [0m - VlocityCard/insArticlesChild_nds # insArticlesChild_nds  [0m
+ [0m - VlocityCard/insArticles_nds # insArticles_nds  [0m
+ [0m - VlocityCard/insBillingDescriptionChild_nds # insBillingDescriptionChild_nds  [0m
+ [0m - VlocityCard/insAccountPolicyListFlyout # insAccountPolicyListFlyout  [0m
+ [0m - VlocityCard/insAccountAssetHeader # insAccountAssetHeader  [0m
+ [0m - VlocityCard/insAccountClaims_nds # insAccountClaims_nds  [0m
+ [0m - VlocityCard/insAccountHeader # insAccountHeader  [0m
+ [0m - VlocityCard/insAccountInsurancePolicyList # insAccountInsurancePolicyList  [0m
+ [0m - VlocityCard/interaction-feed # interaction-feed  [0m
+ [0m - VlocityCard/vlocity-interaction-acuity-sidebar-offer-card # vlocity-interaction-acuity-sidebar-offer-card  [0m
+ [0m - VlocityCard/Campaign Detail # Campaign Detail  [0m
+ [0m - VlocityCard/campaign-member # campaign-member  [0m
+ [0m - VlocityCard/ins-claims-admin-association-card # ins-claims-admin-association-card  [0m
+ [0m - VlocityCard/ins-claims-admin-injuries-association-card # ins-claims-admin-injuries-association-card  [0m
+ [0m - VlocityCard/ins-coverage-policy # ins-coverage-policy  [0m
+ [0m - VlocityCard/ins-coverage-quote # ins-coverage-quote  [0m
+ [0m - VlocityCard/ins-enrollment-card # ins-enrollment-card  [0m
+ [0m - VlocityCard/ins-enrollment-future-card # ins-enrollment-future-card  [0m
+ [0m - VlocityCard/ins-attribute-claims # ins-attribute-claims  [0m
+ [0m - VlocityCard/ins-attributes-coverage # ins-attributes-coverage  [0m
+ [0m - VlocityCard/ins-attributes-insured # ins-attributes-insured  [0m
+ [0m - VlocityCard/ins-required-documents-category # ins-required-documents-category  [0m
+ [0m - VlocityCard/insBillingDescription_nds # insBillingDescription_nds  [0m
+ [0m - VlocityCard/insBillingStrategyChild_nds # insBillingStrategyChild_nds  [0m
+ [0m - VlocityCard/insClaimParticipantsCard # insClaimParticipantsCard  [0m
+ [0m - VlocityCard/insFooterMobile_nds # insFooterMobile_nds  [0m
+ [0m - VlocityCard/insFooter_nds # insFooter_nds  [0m
+ [0m - VlocityCard/insHeaderBillingInfoMobile_nds # insHeaderBillingInfoMobile_nds  [0m
+ [0m - VlocityCard/ins-attribute-claim-properties-spec # ins-attribute-claim-properties-spec  [0m
+ [0m - VlocityCard/ins-attribute-claims-injuries-spec # ins-attribute-claims-injuries-spec  [0m
+ [0m - VlocityCard/ins-attributes-default # ins-attributes-default  [0m
+ [0m - VlocityCard/ins-attributes-product # ins-attributes-product  [0m
+ [0m - VlocityCard/Campaign Story # Campaign Story  [0m
+ [0m - VlocityCard/Campaign Story LWC # Campaign Story LWC  [0m
+ [0m - VlocityCard/Case Story # Case Story  [0m
+ [0m - VlocityCard/Case Story LWC # Case Story LWC  [0m
+ [0m - VlocityCard/Claim Story # Claim Story  [0m
+ [0m - VlocityCard/Claim Story LWC # Claim Story LWC  [0m
+ [0m - VlocityCard/Contact # Contact  [0m
+ [0m - VlocityCard/Customer Interaction Story # Customer Interaction Story  [0m
+ [0m - VlocityCard/Customer Interaction Story LWC # Customer Interaction Story LWC  [0m
+ [0m - VlocityCard/DocumentationTestCard # DocumentationTestCard  [0m
+ [0m - VlocityCard/Event Story # Event Story  [0m
+ [0m - VlocityCard/Event Story LWC # Event Story LWC  [0m
+ [0m - VlocityCard/Held Product Story # Held Product Story  [0m
+ [0m - VlocityCard/Non Held Policy Story # Non Held Policy Story  [0m
+ [0m - VlocityCard/Non Held Policy Story LWC # Non Held Policy Story LWC  [0m
+ [0m - VlocityCard/Non Held Product Story # Non Held Product Story  [0m
+ [0m - VlocityCard/Note Story # Note Story  [0m
+ [0m - VlocityCard/Note Story LWC # Note Story LWC  [0m
+ [0m - VlocityCard/Opportunity Story # Opportunity Story  [0m
+ [0m - VlocityCard/Opportunity Story LWC # Opportunity Story LWC  [0m
+ [0m - VlocityCard/Order Story # Order Story  [0m
+ [0m - VlocityCard/ins-product-rules-eligibility-card # ins-product-rules-eligibility-card  [0m
+ [0m - VlocityCard/ins-rating-fact-card # ins-rating-fact-card  [0m
+ [0m - VlocityCard/SURAFlexRecoveryInitiatedUnsuccessful # SURAFlexRecoveryInitiatedUnsuccessful  [0m
+ [0m - VlocityCard/ins-asset-actions-card # ins-asset-actions-card  [0m
+ [0m - VlocityCard/ins-insurance-policy-actions-card # ins-insurance-policy-actions-card  [0m
+ [0m - VlocityCard/ins-quote-actions-card # ins-quote-actions-card  [0m
+ [0m - VlocityCard/Campaign Attribute Categories # Campaign Attribute Categories  [0m
+ [0m - VlocityCard/Campaign Campaign Story # Campaign Campaign Story  [0m
+ [0m - VlocityCard/Campaign Case Story # Campaign Case Story  [0m
+ [0m - VlocityCard/Campaign Claim Story # Campaign Claim Story  [0m
+ [0m - VlocityCard/Campaign Event Story # Campaign Event Story  [0m
+ [0m - VlocityCard/Campaign Member Action Log Story # Campaign Member Action Log Story  [0m
+ [0m - VlocityCard/Campaign Member Detail # Campaign Member Detail  [0m
+ [0m - VlocityCard/Campaign Member Detail Active # Campaign Member Detail Active  [0m
+ [0m - VlocityCard/Campaign Member Detail Card # Campaign Member Detail Card  [0m
+ [0m - VlocityCard/Campaign Member Log Actions2 # Campaign Member Log Actions2  [0m
+ [0m - VlocityCard/Campaign Non Held Policy Story # Campaign Non Held Policy Story  [0m
+ [0m - VlocityCard/Campaign Note Story # Campaign Note Story  [0m
+ [0m - VlocityCard/Campaign Opportunity Story # Campaign Opportunity Story  [0m
+ [0m - VlocityCard/Campaign Policy Story # Campaign Policy Story  [0m
+ [0m - VlocityCard/Campaign Saved OmniScript Story # Campaign Saved OmniScript Story  [0m
+ [0m - VlocityCard/Campaign Task Story # Campaign Task Story  [0m
+ [0m - VlocityCard/Saved OmniScript Story # Saved OmniScript Story  [0m
+ [0m - VlocityCard/Saved OmniScript Story LWC # Saved OmniScript Story LWC  [0m
+ [0m - VlocityCard/Task Story # Task Story  [0m
+ [0m - VlocityCard/Task Story LWC # Task Story LWC  [0m
+ [0m - VlocityCard/acuity-sidebar-offer-card # acuity-sidebar-offer-card  [0m
+ [0m - VlocityCard/bar-chart # bar-chart  [0m
+ [0m - VlocityCard/column-chart # column-chart  [0m
+ [0m - VlocityCard/community-content-layout-flyout-sample # community-content-layout-flyout-sample  [0m
+ [0m - VlocityCard/donut-chart # donut-chart  [0m
+ [0m - VlocityCard/gauge-chart # gauge-chart  [0m
+ [0m - VlocityCard/pie-chart # pie-chart  [0m
+ [0m - VlocityCard/profile-account # profile-account  [0m
+ [0m - VlocityCard/profile-account-ActionGrid-slds # profile-account-ActionGrid-slds  [0m
+ [0m - VlocityCard/profile-account-info # profile-account-info  [0m
+ [0m - VlocityCard/profile-account-info-slds # profile-account-info-slds  [0m
+ [0m - VlocityCard/profile-account-slds # profile-account-slds  [0m
+ [0m - VlocityCard/ins-large-group-csv-upload-mapping-card # ins-large-group-csv-upload-mapping-card  [0m
+ [0m - VlocityCard/Order Story LWC # Order Story LWC  [0m
+ [0m - VlocityCard/Policy Story # Policy Story  [0m
+ [0m - VlocityCard/Policy Story LWC # Policy Story LWC  [0m
+ [0m - VlocityCard/ins-coverage # ins-coverage  [0m
+ [0m - VlocityCard/ins-insured-items # ins-insured-items  [0m
+ [0m - VlocityCard/ins-product-taxes-card # ins-product-taxes-card  [0m
+ [0m - VlocityCard/SURALaunchCreacionDocumento # SURALaunchCreacionDocumento  [0m
+ [0m - VlocityCard/ins-enrollment-page-actions # ins-enrollment-page-actions  [0m
+ [0m - VlocityCard/ins-enrollment-manage-accounts-card # ins-enrollment-manage-accounts-card  [0m
+ [0m - VlocityCard/ins-large-group-quote-product-card # ins-large-group-quote-product-card  [0m
+ [0m - VlocityCard/ins-large-group-quote-groups-card # ins-large-group-quote-groups-card  [0m
+ [0m - VlocityCard/ins-product-config-ClaimPropertiesSpec # ins-product-config-ClaimPropertiesSpec  [0m
+ [0m - VlocityCard/ins-product-config-Claims # ins-product-config-Claims  [0m
+ [0m - VlocityCard/insPolicyListMobile_nds # insPolicyListMobile_nds  [0m
+ [0m - VlocityCard/insPolicyList_nds # insPolicyList_nds  [0m
+ [0m - VlocityCard/insPolicyOverview_nds # insPolicyOverview_nds  [0m
+ [0m - VlocityCard/insPolicyTransactionsChild_nds # insPolicyTransactionsChild_nds  [0m
+ [0m - VlocityCard/insPolicyTransactionsContainer_nds # insPolicyTransactionsContainer_nds  [0m
+ [0m - VlocityCard/insQuoteHeader # insQuoteHeader  [0m
+ [0m - VlocityCard/insQuoteListCard # insQuoteListCard  [0m
+ [0m - VlocityCard/insRecentActivityChildMobile_nds # insRecentActivityChildMobile_nds  [0m
+ [0m - VlocityCard/insRecentActivityChild_nds # insRecentActivityChild_nds  [0m
+ [0m - VlocityCard/insRecentActivityContainerMobile_nds # insRecentActivityContainerMobile_nds  [0m
+ [0m - VlocityCard/insRecentActivityContainer_nds # insRecentActivityContainer_nds  [0m
+ [0m - VlocityCard/insSummaryInfoCard # insSummaryInfoCard  [0m
+ [0m - VlocityCard/insYourAgent_nds # insYourAgent_nds  [0m
+ [0m - VlocityCard/SURATermsAndConditions # SURATermsAndConditions  [0m
+ [0m - VlocityCard/SURAGenerarNuevaCotizacion # SURAGenerarNuevaCotizacion  [0m
+ [0m - VlocityCard/SURAPoliticaDePrivacidadNo # SURAPoliticaDePrivacidadNo  [0m
+ [0m - VlocityCard/SURAFlexInitiateRecovery3 # SURAFlexInitiateRecovery3  [0m
+ [0m - VlocityCard/ins-product-taxes-config # ins-product-taxes-config  [0m
+ [0m - VlocityCard/Community-account-card-sample # Community-account-card-sample  [0m
+ [0m - VlocityCard/ins-add-product-dropdown # ins-add-product-dropdown  [0m
+ [0m - VlocityCard/ins-product-model-insured-items # ins-product-model-insured-items  [0m
+ [0m - VlocityCard/ins-small-group-add-product-dropdown # ins-small-group-add-product-dropdown  [0m
+ [0m - VlocityCard/ins-product-rules-requirements-card # ins-product-rules-requirements-card  [0m
+ [0m - VlocityCard/insHeaderBillingInfo_nds # insHeaderBillingInfo_nds  [0m
+ [0m - VlocityCard/insHeaderHomeMobile_nds # insHeaderHomeMobile_nds  [0m
+ [0m - VlocityCard/insHeaderHome_nds # insHeaderHome_nds  [0m
+ [0m - VlocityCard/insHeaderPolicyMobile_nds # insHeaderPolicyMobile_nds  [0m
+ [0m - VlocityCard/insHeaderPolicy_nds # insHeaderPolicy_nds  [0m
+ [0m - VlocityCard/insInsurancePolicyHeader # insInsurancePolicyHeader  [0m
+ [0m - VlocityCard/insManageAccountMobile_nds # insManageAccountMobile_nds  [0m
+ [0m - VlocityCard/insManageAccount_nds # insManageAccount_nds  [0m
+ [0m - VlocityCard/insManagePolicyMobile_nds # insManagePolicyMobile_nds  [0m
+ [0m - VlocityCard/insManagePolicy_nds # insManagePolicy_nds  [0m
+ [0m - VlocityCard/insPolicyBillingChild_nds # insPolicyBillingChild_nds  [0m
+ [0m - VlocityCard/insPolicyBillingTransactions_nds # insPolicyBillingTransactions_nds  [0m
+ [0m - VlocityCard/insPolicyClaimsChild_nds # insPolicyClaimsChild_nds  [0m
+ [0m - VlocityCard/insPolicyClaimsContainer_nds # insPolicyClaimsContainer_nds  [0m
+ [0m - VlocityCard/insPolicyIcon_nds # insPolicyIcon_nds  [0m
+ [0m - VlocityCard/insPolicyItemsDetail_nds # insPolicyItemsDetail_nds  [0m
+ [0m - VlocityCard/insPolicyItemsFscDetail_nds # insPolicyItemsFscDetail_nds  [0m
+ [0m - VlocityCard/insPolicyListChildMobile_nds # insPolicyListChildMobile_nds  [0m
+ [0m - VlocityCard/insPolicyListChild_nds # insPolicyListChild_nds  [0m
+ [0m - VlocityCard/insPolicyListFlyout_nds # insPolicyListFlyout_nds  [0m
+ [0m - VlocityCard/ins-product-attributes-Coverages # ins-product-attributes-Coverages  [0m
+ [0m - VlocityCard/ins-product-attributes-Default # ins-product-attributes-Default  [0m
+ [0m - VlocityCard/ins-product-attributes-Insured-Items # ins-product-attributes-Insured-Items  [0m
+ [0m - VlocityCard/ins-product-attributes-config # ins-product-attributes-config  [0m
+ [0m - VlocityCard/ins-product-config-ClaimInjurySpec # ins-product-config-ClaimInjurySpec  [0m
+ [0m - VlocityCard/SURAinsManageClaimsnds # SURAinsManageClaimsnds  [0m
+ [0m - VlocityCard/SURARuntInformation # SURARuntInformation  [0m
+ [0m - VlocityCard/SURAinsManageCancelnds # SURAinsManageCancelnds  [0m
+ [0m - VlocityCard/ins-coverages-attributes-config # ins-coverages-attributes-config  [0m
+ [0m - VlocityCard/SURAFlexRecoveryInitiated # SURAFlexRecoveryInitiated  [0m
+ [0m - VlocityCard/SURAPoliticaDePrivacidad # SURAPoliticaDePrivacidad  [0m
+ [0m - VlocityCard/SURATermsAndConditionDescription # SURATermsAndConditionDescription  [0m
+ [0m - VlocityCard/SURAPoliticasDePrivacidadDescripcion # SURAPoliticasDePrivacidadDescripcion  [0m
+ [0m - VlocitySearchWidgetSetup/InteractionContact # InteractionContact  [0m
+ [0m - VlocitySearchWidgetSetup/InteractionAccount # InteractionAccount  [0m
+ [0m - VlocityStateModel/FSC Claim # FSC Claim  [0m
+ [0m - VlocityUILayout/mobile-action-grid-home # mobile-action-grid-home  [0m
+ [0m - VlocityUILayout/mobile-action-grid-lead # mobile-action-grid-lead  [0m
+ [0m - VlocityUILayout/mobile-contact-highlight # mobile-contact-highlight  [0m
+ [0m - VlocityUILayout/mobile-action-grid-contact # mobile-action-grid-contact  [0m
+ [0m - VlocityUILayout/mobile-home-list # mobile-home-list  [0m
+ [0m - VlocityUILayout/mobile-lead-highlight # mobile-lead-highlight  [0m
+ [0m - VlocityUILayout/mobile-policy-summary # mobile-policy-summary  [0m
+ [0m - VlocityUILayout/mobile-account-highlight # mobile-account-highlight  [0m
+ [0m - VlocityUILayout/mobile-action-grid # mobile-action-grid  [0m
+ [0m - VlocityUILayout/mobile-action-grid-account # mobile-action-grid-account  [0m
+ [0m - VlocityUILayout/interaction-action-layout # interaction-action-layout  [0m
+ [0m - VlocityUILayout/interaction-feed-layout # interaction-feed-layout  [0m
+ [0m - VlocityUILayout/vlocity-interaction-console-right-sidebar-slds # vlocity-interaction-console-right-sidebar-slds  [0m
+ [0m - VlocityUILayout/vlocity-interaction-console-sidebar-slds # vlocity-interaction-console-sidebar-slds  [0m
+ [0m - VlocityUILayout/vlocity-interaction-story-slds # vlocity-interaction-story-slds  [0m
+ [0m - VlocityUILayout/ins-coverage-dependent-opt-modal # ins-coverage-dependent-opt-modal  [0m
+ [0m - VlocityUILayout/ins-enrollment-home-page-header # ins-enrollment-home-page-header  [0m
+ [0m - VlocityUILayout/ins-insured-items-attrs-container # ins-insured-items-attrs-container  [0m
+ [0m - VlocityUILayout/ins-large-group-csv-upload-modal # ins-large-group-csv-upload-modal  [0m
+ [0m - VlocityUILayout/ins-large-group-csv-upload-table # ins-large-group-csv-upload-table  [0m
+ [0m - VlocityUILayout/ins-large-group-quote-groups-card-modal # ins-large-group-quote-groups-card-modal  [0m
+ [0m - VlocityUILayout/ins-large-group-quote-groups-modal # ins-large-group-quote-groups-modal  [0m
+ [0m - VlocityUILayout/ins-policy-revenue-schedule # ins-policy-revenue-schedule  [0m
+ [0m - VlocityUILayout/ins-product-attributes-config # ins-product-attributes-config  [0m
+ [0m - VlocityUILayout/ins-coverage-container # ins-coverage-container  [0m
+ [0m - VlocityUILayout/ins-insured-items-container # ins-insured-items-container  [0m
+ [0m - VlocityUILayout/ins-product-taxes-container # ins-product-taxes-container  [0m
+ [0m - VlocityUILayout/campaign-add-member # campaign-add-member  [0m
+ [0m - VlocityUILayout/campaign-add-member-list # campaign-add-member-list  [0m
+ [0m - VlocityUILayout/campaign-member-detail # campaign-member-detail  [0m
+ [0m - VlocityUILayout/campaign-member-filter # campaign-member-filter  [0m
+ [0m - VlocityUILayout/campaign-member-log-actions # campaign-member-log-actions  [0m
+ [0m - VlocityUILayout/campaign-member-manager # campaign-member-manager  [0m
+ [0m - VlocityUILayout/campaign-results # campaign-results  [0m
+ [0m - VlocityUILayout/campaign-status # campaign-status  [0m
+ [0m - VlocityUILayout/community-content-layout # community-content-layout  [0m
+ [0m - VlocityUILayout/layout-aura-lwc-communication # layout-aura-lwc-communication  [0m
+ [0m - VlocityUILayout/ins-asset-actions # ins-asset-actions  [0m
+ [0m - VlocityUILayout/ins-insurance-policy-actions # ins-insurance-policy-actions  [0m
+ [0m - VlocityUILayout/ins-quote-actions # ins-quote-actions  [0m
+ [0m - VlocityUILayout/ins-product-attributes-container # ins-product-attributes-container  [0m
+ [0m - VlocityUILayout/ins-quote-coverages-add-modal # ins-quote-coverages-add-modal  [0m
+ [0m - VlocityUILayout/ins-quote-line-items-container # ins-quote-line-items-container  [0m
+ [0m - VlocityUILayout/ins-quote-line-items-large-group # ins-quote-line-items-large-group  [0m
+ [0m - VlocityUILayout/ins-quote-line-items-small-group # ins-quote-line-items-small-group  [0m
+ [0m - VlocityUILayout/ins-required-documents # ins-required-documents  [0m
+ [0m - VlocityUILayout/ins-small-group-quote-plans-container # ins-small-group-quote-plans-container  [0m
+ [0m - VlocityUILayout/Charts # Charts  [0m
+ [0m - VlocityUILayout/Grid # Grid  [0m
+ [0m - VlocityUILayout/community-content-layout-flyout-sample # community-content-layout-flyout-sample  [0m
+ [0m - VlocityUILayout/console-right-sidebar-slds # console-right-sidebar-slds  [0m
+ [0m - VlocityUILayout/console-sidebar # console-sidebar  [0m
+ [0m - VlocityUILayout/console-sidebar-slds # console-sidebar-slds  [0m
+ [0m - VlocityUILayout/story-slds # story-slds  [0m
+ [0m - VlocityUILayout/campaign-base-grid # campaign-base-grid  [0m
+ [0m - VlocityUILayout/campaign-detail # campaign-detail  [0m
+ [0m - VlocityUILayout/campaign-member-list # campaign-member-list  [0m
+ [0m - VlocityUILayout/campaign-member-stories # campaign-member-stories  [0m
+ [0m - VlocityUILayout/ins-product-rules # ins-product-rules  [0m
+ [0m - VlocityUILayout/ins-rating-fact-container # ins-rating-fact-container  [0m
+ [0m - VlocityUILayout/ins-product-methods-helper # ins-product-methods-helper  [0m
+ [0m - VlocityUILayout/ins-product-rating-output-input-map # ins-product-rating-output-input-map  [0m
+ [0m - VlocityUILayout/ins-claims-involved-injuries-container # ins-claims-involved-injuries-container  [0m
+ [0m - VlocityUILayout/ins-claims-involved-properties-container # ins-claims-involved-properties-container  [0m
+ [0m - VlocityUILayout/ins-product-attributes-json-modal # ins-product-attributes-json-modal  [0m
+ [0m - VlocityUILayout/ins-product-attributes-rules-modal # ins-product-attributes-rules-modal  [0m
+ [0m - VlocityUILayout/ins-product-model-container # ins-product-model-container  [0m
+ [0m - VlocityUILayout/ins-product-model-quote-container # ins-product-model-quote-container  [0m
+ [0m - VlocityUILayout/ins-quote-line-card-modal # ins-quote-line-card-modal  [0m
+ [0m - VlocityUILayout/ins-product-taxes-config # ins-product-taxes-config  [0m
+ [0m - VlocityUILayout/ins-attributes-set-value-rules # ins-attributes-set-value-rules  [0m
+ [0m - VlocityUILayout/ins-claims-injuries-admin-container # ins-claims-injuries-admin-container  [0m
+ [0m - VlocityUILayout/ins-claims-properties-admin-container # ins-claims-properties-admin-container  [0m
+ [0m - VlocityUILayout/ins-enrollment-billing-and-contact # ins-enrollment-billing-and-contact  [0m
+ [0m - VlocityUILayout/ins-enrollment-home-container # ins-enrollment-home-container  [0m
+ [0m - VlocityUILayout/ins-enrollment-manage-accounts # ins-enrollment-manage-accounts  [0m
+ [0m - VlocityUILayout/ins-large-group-csv-upload # ins-large-group-csv-upload  [0m
+ [0m - VlocityUILayout/ins-large-group-quote-plans-container # ins-large-group-quote-plans-container  [0m
+ [0m - VlocityUILayout/ins-large-group-root-attributes-container # ins-large-group-root-attributes-container  [0m
+ [0m - VlocityUILayout/ins-policy-coverages # ins-policy-coverages  [0m
+ [0m - VlocityUILayout/ins-quote-coverages # ins-quote-coverages  [0m
+ [0m - VlocityUILayout/ins-quote-insured-items # ins-quote-insured-items  [0m
+ [0m - VlocityUILayout/ins-coverage-attr-modal # ins-coverage-attr-modal  [0m
+ [0m - VlocityUILayout/ins-product-taxes-modal # ins-product-taxes-modal  [0m
+ [0m - VlocityUILayout/ins-coverages-attributes-config # ins-coverages-attributes-config  [0m
+ [0m - VlocityUITemplate/SearchResult # SearchResult  [0m
+ [0m - VlocityUITemplate/VerifyResult # VerifyResult  [0m
+ [0m - VlocityUITemplate/ins-coverage-container # ins-coverage-container  [0m
+ [0m - VlocityUITemplate/ins-insured-items-container # ins-insured-items-container  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-variables # ins-product-attributes-variables  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-container # ins-product-attributes-container  [0m
+ [0m - VlocityUITemplate/ins-product-taxes-container # ins-product-taxes-container  [0m
+ [0m - VlocityUITemplate/ins-rating-fact-card # ins-rating-fact-card  [0m
+ [0m - VlocityUITemplate/aura-lwc-communication # aura-lwc-communication  [0m
+ [0m - VlocityUITemplate/ins-attributes-set-value-rules-container # ins-attributes-set-value-rules-container  [0m
+ [0m - VlocityUITemplate/ins-claims-injury-card # ins-claims-injury-card  [0m
+ [0m - VlocityUITemplate/ins-claims-property-card # ins-claims-property-card  [0m
+ [0m - VlocityUITemplate/ins-coverage-runtime-row # ins-coverage-runtime-row  [0m
+ [0m - VlocityUITemplate/ins-coverage-runtime-row-disabled # ins-coverage-runtime-row-disabled  [0m
+ [0m - VlocityUITemplate/ins-enrollment-contact-and-billing # ins-enrollment-contact-and-billing  [0m
+ [0m - VlocityUITemplate/ins-enrollment-home-card # ins-enrollment-home-card  [0m
+ [0m - VlocityUITemplate/ins-enrollment-home-container # ins-enrollment-home-container  [0m
+ [0m - VlocityUITemplate/ins-enrollment-manage-accounts-container # ins-enrollment-manage-accounts-container  [0m
+ [0m - VlocityUITemplate/ins-large-group-csv-upload # ins-large-group-csv-upload  [0m
+ [0m - VlocityUITemplate/ins-large-group-quote-plans-card-container # ins-large-group-quote-plans-card-container  [0m
+ [0m - VlocityUITemplate/ins-large-group-root-attributes-container # ins-large-group-root-attributes-container  [0m
+ [0m - VlocityUITemplate/campaign-add-member # campaign-add-member  [0m
+ [0m - VlocityUITemplate/campaign-add-member-list # campaign-add-member-list  [0m
+ [0m - VlocityUITemplate/campaign-column # campaign-column  [0m
+ [0m - VlocityUITemplate/campaign-column-middle # campaign-column-middle  [0m
+ [0m - VlocityUITemplate/campaign-member-detail # campaign-member-detail  [0m
+ [0m - VlocityUITemplate/campaign-member-detail-blank # campaign-member-detail-blank  [0m
+ [0m - VlocityUITemplate/campaign-member-filter # campaign-member-filter  [0m
+ [0m - VlocityUITemplate/campaign-member-log-actions # campaign-member-log-actions  [0m
+ [0m - VlocityUITemplate/campaign-member-manager # campaign-member-manager  [0m
+ [0m - VlocityUITemplate/campaign-member-story-card # campaign-member-story-card  [0m
+ [0m - VlocityUITemplate/campaign-mixins # campaign-mixins  [0m
+ [0m - VlocityUITemplate/campaign-results # campaign-results  [0m
+ [0m - VlocityUITemplate/campaign-status # campaign-status  [0m
+ [0m - VlocityUITemplate/campaign-variables # campaign-variables  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-json-modal # ins-product-attributes-json-modal  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-rules-modal # ins-product-attributes-rules-modal  [0m
+ [0m - VlocityUITemplate/ins-product-model-container # ins-product-model-container  [0m
+ [0m - VlocityUITemplate/ins-product-model-insured-item # ins-product-model-insured-item  [0m
+ [0m - VlocityUITemplate/ins-quote-line-card # ins-quote-line-card  [0m
+ [0m - VlocityUITemplate/ins-quote-line-card-modal # ins-quote-line-card-modal  [0m
+ [0m - VlocityUITemplate/ins-quote-line-card-select-action # ins-quote-line-card-select-action  [0m
+ [0m - VlocityUITemplate/ins-small-group-quote-line-card-select-action # ins-small-group-quote-line-card-select-action  [0m
+ [0m - VlocityUITemplate/ins-product-taxes-config-container # ins-product-taxes-config-container  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-row # ins-product-attributes-row  [0m
+ [0m - VlocityUITemplate/ins-large-group-quote-product-config # ins-large-group-quote-product-config  [0m
+ [0m - VlocityUITemplate/ins-policy-revenue-schedule # ins-policy-revenue-schedule  [0m
+ [0m - VlocityUITemplate/ins-claims-involved-injuries # ins-claims-involved-injuries  [0m
+ [0m - VlocityUITemplate/ins-claims-involved-properties # ins-claims-involved-properties  [0m
+ [0m - VlocityUITemplate/ins-claims-involved-properties-card # ins-claims-involved-properties-card  [0m
+ [0m - VlocityUITemplate/ins-coverage-dependent-opt-modal # ins-coverage-dependent-opt-modal  [0m
+ [0m - VlocityUITemplate/ins-coverage-quote-runtime-container # ins-coverage-quote-runtime-container  [0m
+ [0m - VlocityUITemplate/ins-coverage-runtime-container # ins-coverage-runtime-container  [0m
+ [0m - VlocityUITemplate/ins-enrollment-home-page-header # ins-enrollment-home-page-header  [0m
+ [0m - VlocityUITemplate/ins-enrollment-manage-accounts # ins-enrollment-manage-accounts  [0m
+ [0m - VlocityUITemplate/ins-enrollment-page-header-actions # ins-enrollment-page-header-actions  [0m
+ [0m - VlocityUITemplate/ins-insured-items-attr-container # ins-insured-items-attr-container  [0m
+ [0m - VlocityUITemplate/ins-large-group-csv-upload-modal # ins-large-group-csv-upload-modal  [0m
+ [0m - VlocityUITemplate/ins-large-group-csv-upload-table # ins-large-group-csv-upload-table  [0m
+ [0m - VlocityUITemplate/ins-large-group-quote-groups-card-modal # ins-large-group-quote-groups-card-modal  [0m
+ [0m - VlocityUITemplate/ins-large-group-quote-groups-config # ins-large-group-quote-groups-config  [0m
+ [0m - VlocityUITemplate/ins-product-taxes-row # ins-product-taxes-row  [0m
+ [0m - VlocityUITemplate/ins-product-rules-requirements # ins-product-rules-requirements  [0m
+ [0m - VlocityUITemplate/campaign-base-grid # campaign-base-grid  [0m
+ [0m - VlocityUITemplate/ins-coverage-card # ins-coverage-card  [0m
+ [0m - VlocityUITemplate/ins-insured-item-card # ins-insured-item-card  [0m
+ [0m - VlocityUITemplate/campaign-detail # campaign-detail  [0m
+ [0m - VlocityUITemplate/campaign-member-list # campaign-member-list  [0m
+ [0m - VlocityUITemplate/campaign-member-stories # campaign-member-stories  [0m
+ [0m - VlocityUITemplate/card-active-slds-trackField # card-active-slds-trackField  [0m
+ [0m - VlocityUITemplate/card-canvas-zones-3x-slds-NotificationBanner # card-canvas-zones-3x-slds-NotificationBanner  [0m
+ [0m - VlocityUITemplate/interaction-action-canvas # interaction-action-canvas  [0m
+ [0m - VlocityUITemplate/interaction-feed # interaction-feed  [0m
+ [0m - VlocityUITemplate/interaction-feed-canvas # interaction-feed-canvas  [0m
+ [0m - VlocityUITemplate/vlocity-interaction-acuity-sidebar-offer-card # vlocity-interaction-acuity-sidebar-offer-card  [0m
+ [0m - VlocityUITemplate/vlocity-interaction-console-sidebar-slds # vlocity-interaction-console-sidebar-slds  [0m
+ [0m - VlocityUITemplate/ins-product-taxes-config # ins-product-taxes-config  [0m
+ [0m - VlocityUITemplate/ins-product-methods-helper # ins-product-methods-helper  [0m
+ [0m - VlocityUITemplate/ins-product-rating-map-container # ins-product-rating-map-container  [0m
+ [0m - VlocityUITemplate/ins-product-rules-container # ins-product-rules-container  [0m
+ [0m - VlocityUITemplate/ins-insured-items-container-v2 # ins-insured-items-container-v2  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-config-container # ins-product-attributes-config-container  [0m
+ [0m - VlocityUITemplate/ins-product-rules-eligibility # ins-product-rules-eligibility  [0m
+ [0m - VlocityUITemplate/ins-product-attributes-config # ins-product-attributes-config  [0m
+ [0m - VlocityUITemplate/ins-product-tags-mixin # ins-product-tags-mixin  [0m
+ [0m - VlocityUITemplate/ins-quote-coverages-add-modal # ins-quote-coverages-add-modal  [0m
+ [0m - VlocityUITemplate/ins-quote-line-card-container # ins-quote-line-card-container  [0m
+ [0m - VlocityUITemplate/ins-quote-line-items-large-group # ins-quote-line-items-large-group  [0m
+ [0m - VlocityUITemplate/ins-quote-line-items-small-group # ins-quote-line-items-small-group  [0m
+ [0m - VlocityUITemplate/ins-required-documents-category # ins-required-documents-category  [0m
+ [0m - VlocityUITemplate/ins-required-documents-community-category # ins-required-documents-community-category  [0m
+ [0m - VlocityUITemplate/ins-required-documents-container # ins-required-documents-container  [0m
+ [0m - VlocityUITemplate/ins-small-group-quote-plans-card-container # ins-small-group-quote-plans-card-container  [0m
+ [0m - VlocityUITemplate/ins-coverage-attr-modal # ins-coverage-attr-modal  [0m
+ [0m - VlocityUITemplate/ins-coverages-attributes-config # ins-coverages-attributes-config  [0m
+ [0m - VlocityUITemplate/ins-coverages-attributes-config-container # ins-coverages-attributes-config-container  [0m
+ [0m - VlocityUITemplate/ins-product-taxes-modal # ins-product-taxes-modal  [0m
+ [0m - VlocityUITemplate/docgensample-object-document-creation-default # docgensample-object-document-creation-default  [0m
+ [0m - VlocityUITemplate/docgensample-object-document-creation-docx-template # docgensample-object-document-creation-docx-template  [0m
+ [0m - VlocityUITemplate/docgensample-object-document-multi-generation-docx-sample # docgensample-object-document-multi-generation-docx-sample  [0m
+ [0m - VlocityUITemplate/docgensample-object-document-pdf-merge # docgensample-object-document-pdf-merge  [0m
+ [0m - VlocityUITemplate/docgensample-object-document-selected-template-list # docgensample-object-document-selected-template-list  [0m
+ [0m - VlocityUITemplate/docgensample-object-document-template-list # docgensample-object-document-template-list  [0m
+ [0m - VlocityWebTrackingConfiguration/null # a6mDL000000HT8GYAW  [0m
+ [0m - VlocityTrackingGroup/null # a6jDL000000GvDeYAK  [0m
+ [36m Job Complete >> [0mGetAllAvailableExports   [0m
+GetAllAvailableExports success:
+957 Found
